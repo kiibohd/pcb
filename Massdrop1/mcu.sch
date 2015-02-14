@@ -1,36 +1,15 @@
 EESchema Schematic File Version 2
 LIBS:power
 LIBS:device
-LIBS:massdrop
-LIBS:adafruit
-LIBS:bits
-LIBS:cn3063
-LIBS:inductor_select
-LIBS:logo
-LIBS:mcp1702
-LIBS:mcp73831
-LIBS:mic5205
-LIBS:microsd
-LIBS:MK20LF
-LIBS:multireg
-LIBS:mx1a-simple
-LIBS:NUC120_QFN48
-LIBS:nuc120ld
-LIBS:nuc120ldq48
-LIBS:SparkFun
-LIBS:STM32L15x_QFN48
-LIBS:tac_switchsmd_evqp2
-LIBS:vdda
-LIBS:vssa
-LIBS:massdrop1-cache
+LIBS:massdrop1
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 3
-Title ""
+Title "Infinity"
 Date "28 aug 2014"
-Rev ""
+Rev "1.01b"
 Comp ""
 Comment1 ""
 Comment2 ""
