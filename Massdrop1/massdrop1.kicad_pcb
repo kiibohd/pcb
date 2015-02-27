@@ -13,6 +13,11 @@
   )
 
   (page A3)
+  (title_block 
+    (title Infinity)
+    (rev 1.01b)
+  )
+
   (layers
     (15 Front signal)
     (0 Back signal)
