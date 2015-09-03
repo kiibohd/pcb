@@ -1,0 +1,318 @@
+Cmp-Mod V01 Created by PcbNew date = 12/8/2013 10:15:15 PM
+
+BeginCmp
+TimeStamp = /51E04EA3;
+Reference = C1;
+ValeurCmp = 500pF;
+IdModule  = CAPACITOR_DISC_6MM_3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /51E04ED6;
+Reference = C2;
+ValeurCmp = 500pF;
+IdModule  = CAPACITOR_DISC_6MM_3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /51E04F0B;
+Reference = C3;
+ValeurCmp = 500pF;
+IdModule  = CAPACITOR_DISC_6MM_3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /51E04F45;
+Reference = C4;
+ValeurCmp = 500pF;
+IdModule  = CAPACITOR_DISC_6MM_3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /51E04F7D;
+Reference = C5;
+ValeurCmp = 500pF;
+IdModule  = CAPACITOR_DISC_6MM_3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /51E04FBA;
+Reference = C6;
+ValeurCmp = 500pF;
+IdModule  = CAPACITOR_DISC_6MM_3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /51E04FF6;
+Reference = C7;
+ValeurCmp = 500pF;
+IdModule  = CAPACITOR_DISC_6MM_3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /51E05030;
+Reference = C8;
+ValeurCmp = 500pF;
+IdModule  = CAPACITOR_DISC_6MM_3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /51F52602;
+Reference = C9;
+ValeurCmp = 1uF;
+IdModule  = CAPACITOR_ELE_4MM_1.5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /51D1D574;
+Reference = D0;
+ValeurCmp = DIODE;
+IdModule  = DO-35;
+EndCmp
+
+BeginCmp
+TimeStamp = /51D1D52C;
+Reference = D1;
+ValeurCmp = DIODE;
+IdModule  = DO-35;
+EndCmp
+
+BeginCmp
+TimeStamp = /51D1D64A;
+Reference = D2;
+ValeurCmp = DIODE;
+IdModule  = DO-35;
+EndCmp
+
+BeginCmp
+TimeStamp = /51D1D644;
+Reference = D3;
+ValeurCmp = DIODE;
+IdModule  = DO-35;
+EndCmp
+
+BeginCmp
+TimeStamp = /51D1D65C;
+Reference = D4;
+ValeurCmp = DIODE;
+IdModule  = DO-35;
+EndCmp
+
+BeginCmp
+TimeStamp = /51D1D656;
+Reference = D5;
+ValeurCmp = DIODE;
+IdModule  = DO-35;
+EndCmp
+
+BeginCmp
+TimeStamp = /51D1D66E;
+Reference = D6;
+ValeurCmp = DIODE;
+IdModule  = DO-35;
+EndCmp
+
+BeginCmp
+TimeStamp = /51D1D668;
+Reference = D7;
+ValeurCmp = DIODE;
+IdModule  = DO-35;
+EndCmp
+
+BeginCmp
+TimeStamp = /51D1D6E2;
+Reference = D8;
+ValeurCmp = DIODE;
+IdModule  = DO-35;
+EndCmp
+
+BeginCmp
+TimeStamp = /51D1D6DC;
+Reference = D9;
+ValeurCmp = DIODE;
+IdModule  = DO-35;
+EndCmp
+
+BeginCmp
+TimeStamp = /51D1D6F4;
+Reference = D10;
+ValeurCmp = DIODE;
+IdModule  = DO-35;
+EndCmp
+
+BeginCmp
+TimeStamp = /51D1D6EE;
+Reference = D11;
+ValeurCmp = DIODE;
+IdModule  = DO-35;
+EndCmp
+
+BeginCmp
+TimeStamp = /51D1D706;
+Reference = D12;
+ValeurCmp = DIODE;
+IdModule  = DO-35;
+EndCmp
+
+BeginCmp
+TimeStamp = /51D1D700;
+Reference = D13;
+ValeurCmp = DIODE;
+IdModule  = DO-35;
+EndCmp
+
+BeginCmp
+TimeStamp = /51D1D718;
+Reference = D14;
+ValeurCmp = DIODE;
+IdModule  = DO-35;
+EndCmp
+
+BeginCmp
+TimeStamp = /51D1D712;
+Reference = D15;
+ValeurCmp = DIODE;
+IdModule  = DO-35;
+EndCmp
+
+BeginCmp
+TimeStamp = /51D43ED3;
+Reference = P1;
+ValeurCmp = MODELF_CONN30;
+IdModule  = PIN_ARRAY-30X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /51F556C2;
+Reference = P2;
+ValeurCmp = MODELF_CONN30;
+IdModule  = PIN_ARRAY-30X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /51F406EC;
+Reference = P4;
+ValeurCmp = 1PAD;
+IdModule  = GND_SCREW_PAD;
+EndCmp
+
+BeginCmp
+TimeStamp = /51F406FB;
+Reference = P5;
+ValeurCmp = 1PAD;
+IdModule  = GND_SCREW_PAD;
+EndCmp
+
+BeginCmp
+TimeStamp = /51D1D445;
+Reference = R1;
+ValeurCmp = 47K;
+IdModule  = RESISTOR_6.2MM_2.3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /51E04E92;
+Reference = R2;
+ValeurCmp = 36K;
+IdModule  = RESISTOR_3.5MM_1.85MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /51E04EBE;
+Reference = R3;
+ValeurCmp = 36K;
+IdModule  = RESISTOR_3.5MM_1.85MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /51E04EF3;
+Reference = R4;
+ValeurCmp = 36K;
+IdModule  = RESISTOR_3.5MM_1.85MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /51E04F2D;
+Reference = R5;
+ValeurCmp = 36K;
+IdModule  = RESISTOR_3.5MM_1.85MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /51E04F64;
+Reference = R6;
+ValeurCmp = 36K;
+IdModule  = RESISTOR_3.5MM_1.85MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /51E04FA1;
+Reference = R7;
+ValeurCmp = 36K;
+IdModule  = RESISTOR_3.5MM_1.85MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /51E04FDD;
+Reference = R8;
+ValeurCmp = 36K;
+IdModule  = RESISTOR_3.5MM_1.85MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /51E05017;
+Reference = R9;
+ValeurCmp = 36K;
+IdModule  = RESISTOR_3.5MM_1.85MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /51E05462;
+Reference = RR1;
+ValeurCmp = 10K;
+IdModule  = RESISTOR_NETWORK_9;
+EndCmp
+
+BeginCmp
+TimeStamp = /51F42BBB;
+Reference = SW1;
+ValeurCmp = SW_PUSH_4PIN;
+IdModule  = BUTTON_TACT_6x6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /51C9BE15;
+Reference = U0;
+ValeurCmp = TEENSYPP2;
+IdModule  = TEENSYPP2_NOINT2;
+EndCmp
+
+BeginCmp
+TimeStamp = /51E04E8B;
+Reference = U1;
+ValeurCmp = LM324AN;
+IdModule  = DIP-14__300;
+EndCmp
+
+BeginCmp
+TimeStamp = /51E04E85;
+Reference = U2;
+ValeurCmp = 4066;
+IdModule  = DIP-14__300;
+EndCmp
+
+BeginCmp
+TimeStamp = /51E04F5D;
+Reference = U3;
+ValeurCmp = LM324AN;
+IdModule  = DIP-14__300;
+EndCmp
+
+BeginCmp
+TimeStamp = /51E04F57;
+Reference = U4;
+ValeurCmp = 4066;
+IdModule  = DIP-14__300;
+EndCmp
+
+EndListe

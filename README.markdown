@@ -9,5 +9,4 @@ Projects
 --------
 
 * Massdrop1 (Infinity Keyboard 2014/10/15)
-
-
+* DPH (Model F capsense controller using teensy2++)

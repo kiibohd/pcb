@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0  Date: 7/27/2013 5:14:43 PM
+#
+$CMP SW_PUSH
+D Push Button
+K Switch
+$ENDCMP
+#
+$CMP SW_PUSH_4PIN
+D Push Button
+K Switch
+$ENDCMP
+#
+#End Doc Library
