@@ -1,6 +1,6 @@
-update=9/21/2014 9:36:34 PM
+update=5/23/2015 8:09:02 PM
 version=1
-last_client=pcbnew
+last_client=kicad
 [general]
 version=1
 [cvpcb]
@@ -8,18 +8,6 @@ version=1
 NetIExt=net
 [cvpcb/libraries]
 EquName1=devcms
-[eeschema]
-version=1
-LibDir=
-NetFmtName=Pcbnew
-RptD_X=0
-RptD_Y=100
-RptLab=1
-LabSize=60
-[eeschema/libraries]
-LibName1=power
-LibName2=device
-LibName3=lib/massdrop1
 [pcbnew]
 version=1
 LastNetListRead=
@@ -45,3 +33,21 @@ LibName1=holes
 LibName2=mchck
 LibName3=logo
 LibName4=massdrop1
+[eeschema]
+version=1
+LibDir=
+[eeschema/libraries]
+LibName1=lib/massdrop1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+RptD_X=0
+RptD_Y=100
+RptLab=1
+LabSize=60

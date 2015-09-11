@@ -1,12 +1,11 @@
-G04 (created by PCBNEW (2013-07-07 BZR 4022)-stable) date 8/30/2014 2:43:21 AM*
-%MOIN*%
-G04 Gerber Fmt 3.4, Leading zero omitted, Abs format*
-%FSLAX34Y34*%
+G04 #@! TF.FileFunction,Paste,Top*
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (2015-02-28 BZR 5464)-product) date 5/23/2015 8:14:35 PM*
+%MOMM*%
 G01*
-G70*
-G90*
 G04 APERTURE LIST*
-%ADD10C,0.00590551*%
+%ADD10C,0.150000*%
 G04 APERTURE END LIST*
-G54D10*
+D10*
 M02*

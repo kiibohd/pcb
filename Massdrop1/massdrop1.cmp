@@ -1,1081 +1,1095 @@
-Cmp-Mod V01 Created by PcbNew date = 8/30/2014 2:41:32 AM
+Cmp-Mod V01 Created by Cvpcb (2015-02-28 BZR 5464)-product   date = 5/3/2015 10:15:40 PM
 
 BeginCmp
 TimeStamp = /539CFF84/5048FC9E;
 Reference = C1;
 ValeurCmp = 2.2u;
-IdModule  = SMD-1005;
+IdModule  = lib.pretty:SMD-1005;
 EndCmp
 
 BeginCmp
 TimeStamp = /539CFF84/539C9FAE;
 Reference = C2;
 ValeurCmp = 2.2u;
-IdModule  = SMD-1005;
+IdModule  = lib.pretty:SMD-1005;
 EndCmp
 
 BeginCmp
 TimeStamp = /539CFF84/4F22C5A2;
 Reference = C3;
 ValeurCmp = 100n;
-IdModule  = SMD-1005;
+IdModule  = lib.pretty:SMD-1005;
 EndCmp
 
 BeginCmp
 TimeStamp = /539CFF84/4F22F29F;
 Reference = C4;
 ValeurCmp = 100n;
-IdModule  = SMD-1005;
+IdModule  = lib.pretty:SMD-1005;
 EndCmp
 
 BeginCmp
 TimeStamp = /539CFF84/4F22C606;
 Reference = C5;
 ValeurCmp = 100n;
-IdModule  = SMD-1005;
+IdModule  = lib.pretty:SMD-1005;
 EndCmp
 
 BeginCmp
 TimeStamp = /539CFF84/4E4181C7;
 Reference = C6;
 ValeurCmp = 100n;
-IdModule  = SMD-1005;
+IdModule  = lib.pretty:SMD-1005;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A85E1;
 Reference = D1;
 ValeurCmp = DIODE;
-IdModule  = SOT123-DIODE;
+IdModule  = lib.pretty:SOT123-DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A85F4;
 Reference = D2;
 ValeurCmp = DIODE;
-IdModule  = SOT123-DIODE;
+IdModule  = lib.pretty:SOT123-DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A8602;
 Reference = D3;
 ValeurCmp = DIODE;
-IdModule  = SOT123-DIODE;
+IdModule  = lib.pretty:SOT123-DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A8610;
 Reference = D4;
 ValeurCmp = DIODE;
-IdModule  = SOT123-DIODE;
+IdModule  = lib.pretty:SOT123-DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A861E;
 Reference = D5;
 ValeurCmp = DIODE;
-IdModule  = SOT123-DIODE;
+IdModule  = lib.pretty:SOT123-DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A862C;
 Reference = D6;
 ValeurCmp = DIODE;
-IdModule  = SOT123-DIODE;
+IdModule  = lib.pretty:SOT123-DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A863A;
 Reference = D7;
 ValeurCmp = DIODE;
-IdModule  = SOT123-DIODE;
+IdModule  = lib.pretty:SOT123-DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A8648;
 Reference = D8;
 ValeurCmp = DIODE;
-IdModule  = SOT123-DIODE;
+IdModule  = lib.pretty:SOT123-DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A8656;
 Reference = D9;
 ValeurCmp = DIODE;
-IdModule  = SOT123-DIODE;
+IdModule  = lib.pretty:SOT123-DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A8664;
 Reference = D10;
 ValeurCmp = DIODE;
-IdModule  = SOT123-DIODE;
+IdModule  = lib.pretty:SOT123-DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A8672;
 Reference = D11;
 ValeurCmp = DIODE;
-IdModule  = SOT123-DIODE;
+IdModule  = lib.pretty:SOT123-DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A8680;
 Reference = D12;
 ValeurCmp = DIODE;
-IdModule  = SOT123-DIODE;
+IdModule  = lib.pretty:SOT123-DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A868E;
 Reference = D13;
 ValeurCmp = DIODE;
-IdModule  = SOT123-DIODE;
+IdModule  = lib.pretty:SOT123-DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A869C;
 Reference = D14;
 ValeurCmp = DIODE;
-IdModule  = SOT123-DIODE;
+IdModule  = lib.pretty:SOT123-DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A86AA;
 Reference = D15;
 ValeurCmp = DIODE;
-IdModule  = SOT123-DIODE;
+IdModule  = lib.pretty:SOT123-DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A86B8;
 Reference = D16;
 ValeurCmp = DIODE;
-IdModule  = SOT123-DIODE;
+IdModule  = lib.pretty:SOT123-DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A86C6;
 Reference = D17;
 ValeurCmp = DIODE;
-IdModule  = SOT123-DIODE;
+IdModule  = lib.pretty:SOT123-DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A86D4;
 Reference = D18;
 ValeurCmp = DIODE;
-IdModule  = SOT123-DIODE;
+IdModule  = lib.pretty:SOT123-DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A86E2;
 Reference = D19;
 ValeurCmp = DIODE;
-IdModule  = SOT123-DIODE;
+IdModule  = lib.pretty:SOT123-DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A86F0;
 Reference = D20;
 ValeurCmp = DIODE;
-IdModule  = SOT123-DIODE;
+IdModule  = lib.pretty:SOT123-DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A86FE;
 Reference = D21;
 ValeurCmp = DIODE;
-IdModule  = SOT123-DIODE;
+IdModule  = lib.pretty:SOT123-DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A870C;
 Reference = D22;
 ValeurCmp = DIODE;
-IdModule  = SOT123-DIODE;
+IdModule  = lib.pretty:SOT123-DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A871A;
 Reference = D23;
 ValeurCmp = DIODE;
-IdModule  = SOT123-DIODE;
+IdModule  = lib.pretty:SOT123-DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A8728;
 Reference = D24;
 ValeurCmp = DIODE;
-IdModule  = SOT123-DIODE;
+IdModule  = lib.pretty:SOT123-DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A8736;
 Reference = D25;
 ValeurCmp = DIODE;
-IdModule  = SOT123-DIODE;
+IdModule  = lib.pretty:SOT123-DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A8744;
 Reference = D26;
 ValeurCmp = DIODE;
-IdModule  = SOT123-DIODE;
+IdModule  = lib.pretty:SOT123-DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A8752;
 Reference = D27;
 ValeurCmp = DIODE;
-IdModule  = SOT123-DIODE;
+IdModule  = lib.pretty:SOT123-DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A8760;
 Reference = D28;
 ValeurCmp = DIODE;
-IdModule  = SOT123-DIODE;
+IdModule  = lib.pretty:SOT123-DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A876E;
 Reference = D29;
 ValeurCmp = DIODE;
-IdModule  = SOT123-DIODE;
+IdModule  = lib.pretty:SOT123-DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A877C;
 Reference = D30;
 ValeurCmp = DIODE;
-IdModule  = SOT123-DIODE;
+IdModule  = lib.pretty:SOT123-DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A878A;
 Reference = D31;
 ValeurCmp = DIODE;
-IdModule  = SOT123-DIODE;
+IdModule  = lib.pretty:SOT123-DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A8798;
 Reference = D32;
 ValeurCmp = DIODE;
-IdModule  = SOT123-DIODE;
+IdModule  = lib.pretty:SOT123-DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A87A6;
 Reference = D33;
 ValeurCmp = DIODE;
-IdModule  = SOT123-DIODE;
+IdModule  = lib.pretty:SOT123-DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A87B4;
 Reference = D34;
 ValeurCmp = DIODE;
-IdModule  = SOT123-DIODE;
+IdModule  = lib.pretty:SOT123-DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A87C2;
 Reference = D35;
 ValeurCmp = DIODE;
-IdModule  = SOT123-DIODE;
+IdModule  = lib.pretty:SOT123-DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A87D0;
 Reference = D36;
 ValeurCmp = DIODE;
-IdModule  = SOT123-DIODE;
+IdModule  = lib.pretty:SOT123-DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A87DE;
 Reference = D37;
 ValeurCmp = DIODE;
-IdModule  = SOT123-DIODE;
+IdModule  = lib.pretty:SOT123-DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A87EC;
 Reference = D38;
 ValeurCmp = DIODE;
-IdModule  = SOT123-DIODE;
+IdModule  = lib.pretty:SOT123-DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A87FA;
 Reference = D39;
 ValeurCmp = DIODE;
-IdModule  = SOT123-DIODE;
+IdModule  = lib.pretty:SOT123-DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A8808;
 Reference = D40;
 ValeurCmp = DIODE;
-IdModule  = SOT123-DIODE;
+IdModule  = lib.pretty:SOT123-DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A8816;
 Reference = D41;
 ValeurCmp = DIODE;
-IdModule  = SOT123-DIODE;
+IdModule  = lib.pretty:SOT123-DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A8824;
 Reference = D42;
 ValeurCmp = DIODE;
-IdModule  = SOT123-DIODE;
+IdModule  = lib.pretty:SOT123-DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A8832;
 Reference = D43;
 ValeurCmp = DIODE;
-IdModule  = SOT123-DIODE;
+IdModule  = lib.pretty:SOT123-DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A8840;
 Reference = D44;
 ValeurCmp = DIODE;
-IdModule  = SOT123-DIODE;
+IdModule  = lib.pretty:SOT123-DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A884E;
 Reference = D45;
 ValeurCmp = DIODE;
-IdModule  = SOT123-DIODE;
+IdModule  = lib.pretty:SOT123-DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A885C;
 Reference = D46;
 ValeurCmp = DIODE;
-IdModule  = SOT123-DIODE;
+IdModule  = lib.pretty:SOT123-DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A886A;
 Reference = D47;
 ValeurCmp = DIODE;
-IdModule  = SOT123-DIODE;
+IdModule  = lib.pretty:SOT123-DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A8878;
 Reference = D48;
 ValeurCmp = DIODE;
-IdModule  = SOT123-DIODE;
+IdModule  = lib.pretty:SOT123-DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A8886;
 Reference = D49;
 ValeurCmp = DIODE;
-IdModule  = SOT123-DIODE;
+IdModule  = lib.pretty:SOT123-DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A8894;
 Reference = D50;
 ValeurCmp = DIODE;
-IdModule  = SOT123-DIODE;
+IdModule  = lib.pretty:SOT123-DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A88A2;
 Reference = D51;
 ValeurCmp = DIODE;
-IdModule  = SOT123-DIODE;
+IdModule  = lib.pretty:SOT123-DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A88B0;
 Reference = D52;
 ValeurCmp = DIODE;
-IdModule  = SOT123-DIODE;
+IdModule  = lib.pretty:SOT123-DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A88BE;
 Reference = D53;
 ValeurCmp = DIODE;
-IdModule  = SOT123-DIODE;
+IdModule  = lib.pretty:SOT123-DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A88CC;
 Reference = D54;
 ValeurCmp = DIODE;
-IdModule  = SOT123-DIODE;
+IdModule  = lib.pretty:SOT123-DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A88DA;
 Reference = D55;
 ValeurCmp = DIODE;
-IdModule  = SOT123-DIODE;
+IdModule  = lib.pretty:SOT123-DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A88E8;
 Reference = D56;
 ValeurCmp = DIODE;
-IdModule  = SOT123-DIODE;
+IdModule  = lib.pretty:SOT123-DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A88F6;
 Reference = D57;
 ValeurCmp = DIODE;
-IdModule  = SOT123-DIODE;
+IdModule  = lib.pretty:SOT123-DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A8904;
 Reference = D58;
 ValeurCmp = DIODE;
-IdModule  = SOT123-DIODE;
+IdModule  = lib.pretty:SOT123-DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A8912;
 Reference = D59;
 ValeurCmp = DIODE;
-IdModule  = SOT123-DIODE;
+IdModule  = lib.pretty:SOT123-DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A8920;
 Reference = D60;
 ValeurCmp = DIODE;
-IdModule  = SOT123-DIODE;
+IdModule  = lib.pretty:SOT123-DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A892E;
 Reference = D61;
 ValeurCmp = DIODE;
-IdModule  = SOT123-DIODE;
+IdModule  = lib.pretty:SOT123-DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A893C;
 Reference = D62;
 ValeurCmp = DIODE;
-IdModule  = SOT123-DIODE;
+IdModule  = lib.pretty:SOT123-DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/53ACD9B7;
 Reference = D63;
 ValeurCmp = DIODE;
-IdModule  = SOT123-DIODE;
+IdModule  = lib.pretty:SOT123-DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /539CFF84/4E418482;
 Reference = D64;
 ValeurCmp = LED;
-IdModule  = LED-0603;
+IdModule  = lib.pretty:LED-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /539CFF84/53A64B8A;
 Reference = J1;
 ValeurCmp = USB_CONN;
-IdModule  = MOLEX_MINI_USB;
+IdModule  = lib.pretty:MOLEX_MINI_USB;
 EndCmp
 
 BeginCmp
 TimeStamp = /53A65182;
 Reference = MH1;
 ValeurCmp = MOUNT_HOLE;
-IdModule  = PKRH;
+IdModule  = lib.pretty:PKRH;
 EndCmp
 
 BeginCmp
 TimeStamp = /53A65191;
 Reference = MH2;
 ValeurCmp = MOUNT_HOLE;
-IdModule  = PKRH;
+IdModule  = lib.pretty:PKRH;
 EndCmp
 
 BeginCmp
 TimeStamp = /53A6519E;
 Reference = MH3;
 ValeurCmp = MOUNT_HOLE;
-IdModule  = PKRH;
+IdModule  = lib.pretty:PKRH;
 EndCmp
 
 BeginCmp
 TimeStamp = /53A651A4;
 Reference = MH4;
 ValeurCmp = MOUNT_HOLE;
-IdModule  = PKRHC;
+IdModule  = lib.pretty:PKRHC;
 EndCmp
 
 BeginCmp
 TimeStamp = /53A65669;
 Reference = MH5;
 ValeurCmp = MOUNT_HOLE;
-IdModule  = PKRHSL;
+IdModule  = lib.pretty:PKRHSL;
 EndCmp
 
 BeginCmp
 TimeStamp = /53A6566F;
 Reference = MH6;
 ValeurCmp = MOUNT_HOLE;
-IdModule  = PKRHSL;
+IdModule  = lib.pretty:PKRHSL;
 EndCmp
 
 BeginCmp
 TimeStamp = /539CFF84/539CD88B;
 Reference = P1;
 ValeurCmp = DEBUG;
-IdModule  = SparkFun-1X04_LOCK;
+IdModule  = lib.pretty:HEADER_1x4;
+EndCmp
+
+BeginCmp
+TimeStamp = /539CFF84/54ED5197;
+Reference = P2;
+ValeurCmp = CONN_2;
+IdModule  = lib.pretty:HEADER_1x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /539CFF84/5546D9E2;
+Reference = P3;
+ValeurCmp = FLASH_HDR;
+IdModule  = lib.pretty:JLINK_NEEDLE;
 EndCmp
 
 BeginCmp
 TimeStamp = /539CFF84/539C9F3B;
 Reference = R1;
 ValeurCmp = 33;
-IdModule  = SMD-1005;
+IdModule  = lib.pretty:SMD-1005;
 EndCmp
 
 BeginCmp
 TimeStamp = /539CFF84/539C9F35;
 Reference = R2;
 ValeurCmp = 33;
-IdModule  = SMD-1005;
+IdModule  = lib.pretty:SMD-1005;
 EndCmp
 
 BeginCmp
 TimeStamp = /539CFF84/4E4186C6;
 Reference = R3;
 ValeurCmp = 1k;
-IdModule  = SMD-1005;
+IdModule  = lib.pretty:SMD-1005;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A85D2;
 Reference = S1;
 ValeurCmp = SW;
-IdModule  = MXALPS_OVALS;
+IdModule  = lib.pretty:MXALPS;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A85EE;
 Reference = S2;
 ValeurCmp = SW;
-IdModule  = MXALPS_OVALS;
+IdModule  = lib.pretty:MXALPS;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A85FC;
 Reference = S3;
 ValeurCmp = SW;
-IdModule  = MXALPS_OVALS;
+IdModule  = lib.pretty:MXALPS;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A860A;
 Reference = S4;
 ValeurCmp = SW;
-IdModule  = MXALPS_OVALS;
+IdModule  = lib.pretty:MXALPS;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A8618;
 Reference = S5;
 ValeurCmp = SW;
-IdModule  = MXALPS_OVALS;
+IdModule  = lib.pretty:MXALPS;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A8626;
 Reference = S6;
 ValeurCmp = SW;
-IdModule  = MXALPS_OVALS;
+IdModule  = lib.pretty:MXALPS;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A8634;
 Reference = S7;
 ValeurCmp = SW;
-IdModule  = MXALPS_OVALS;
+IdModule  = lib.pretty:MXALPS;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A8642;
 Reference = S8;
 ValeurCmp = SW;
-IdModule  = MXALPS_OVALS;
+IdModule  = lib.pretty:MXALPS;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A8650;
 Reference = S9;
 ValeurCmp = SW;
-IdModule  = MXALPS_OVALS;
+IdModule  = lib.pretty:MXALPS;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A865E;
 Reference = S10;
 ValeurCmp = SW;
-IdModule  = MXALPS_OVALS;
+IdModule  = lib.pretty:MXALPS;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A866C;
 Reference = S11;
 ValeurCmp = SW;
-IdModule  = MXALPS_OVALS;
+IdModule  = lib.pretty:MXALPS;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A867A;
 Reference = S12;
 ValeurCmp = SW;
-IdModule  = MXALPS_OVALS;
+IdModule  = lib.pretty:MXALPS;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A8688;
 Reference = S13;
 ValeurCmp = SW;
-IdModule  = MXALPS_OVALS;
+IdModule  = lib.pretty:MXALPS;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A8696;
 Reference = S14;
 ValeurCmp = SW;
-IdModule  = MXALPS_OVALS;
+IdModule  = lib.pretty:MXALPS;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A86A4;
 Reference = S15;
 ValeurCmp = SW;
-IdModule  = MXALPS_OVALS;
+IdModule  = lib.pretty:MXALPS;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A86B2;
 Reference = S16;
 ValeurCmp = SW;
-IdModule  = MXALPS_OVALS;
+IdModule  = lib.pretty:MXALPS;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A86C0;
 Reference = S17;
 ValeurCmp = SW;
-IdModule  = MXALPS_OVALS;
+IdModule  = lib.pretty:MXALPS;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A86CE;
 Reference = S18;
 ValeurCmp = SW;
-IdModule  = MXALPS_OVALS;
+IdModule  = lib.pretty:MXALPS;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A86DC;
 Reference = S19;
 ValeurCmp = SW;
-IdModule  = MXALPS_OVALS;
+IdModule  = lib.pretty:MXALPS;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A86EA;
 Reference = S20;
 ValeurCmp = SW;
-IdModule  = MXALPS_OVALS;
+IdModule  = lib.pretty:MXALPS;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A86F8;
 Reference = S21;
 ValeurCmp = SW;
-IdModule  = MXALPS_OVALS;
+IdModule  = lib.pretty:MXALPS;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A8706;
 Reference = S22;
 ValeurCmp = SW;
-IdModule  = MXALPS_OVALS;
+IdModule  = lib.pretty:MXALPS;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A8714;
 Reference = S23;
 ValeurCmp = SW;
-IdModule  = MXALPS_OVALS;
+IdModule  = lib.pretty:MXALPS;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A8722;
 Reference = S24;
 ValeurCmp = SW;
-IdModule  = MXALPS_OVALS;
+IdModule  = lib.pretty:MXALPS;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A8730;
 Reference = S25;
 ValeurCmp = SW;
-IdModule  = MXALPS_OVALS;
+IdModule  = lib.pretty:MXALPS;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A873E;
 Reference = S26;
 ValeurCmp = SW;
-IdModule  = MXALPS_OVALS;
+IdModule  = lib.pretty:MXALPS;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A874C;
 Reference = S27;
 ValeurCmp = SW;
-IdModule  = MXALPS_OVALS;
+IdModule  = lib.pretty:MXALPS;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A875A;
 Reference = S28;
 ValeurCmp = SW;
-IdModule  = MXALPS_OVALS;
+IdModule  = lib.pretty:MXALPS;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A8768;
 Reference = S29;
 ValeurCmp = SW;
-IdModule  = MXALPS_OVALS;
+IdModule  = lib.pretty:MXALPS;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A8776;
 Reference = S30;
 ValeurCmp = SW;
-IdModule  = MXALPS_OVALS;
+IdModule  = lib.pretty:MXALPS;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A8784;
 Reference = S31;
 ValeurCmp = SW;
-IdModule  = MXALPS_OVALS;
+IdModule  = lib.pretty:MXALPS;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A8792;
 Reference = S32;
 ValeurCmp = SW;
-IdModule  = MXALPS_OVALS;
+IdModule  = lib.pretty:MXALPS;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A87A0;
 Reference = S33;
 ValeurCmp = SW;
-IdModule  = MXALPS_OVALS;
+IdModule  = lib.pretty:MXALPS;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A87AE;
 Reference = S34;
 ValeurCmp = SW;
-IdModule  = MXALPS_OVALS;
+IdModule  = lib.pretty:MXALPS;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A87BC;
 Reference = S35;
 ValeurCmp = SW;
-IdModule  = MXALPS_OVALS;
+IdModule  = lib.pretty:MXALPS;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A87CA;
 Reference = S36;
 ValeurCmp = SW;
-IdModule  = MXALPS_OVALS;
+IdModule  = lib.pretty:MXALPS;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A87D8;
 Reference = S37;
 ValeurCmp = SW;
-IdModule  = MXALPS_OVALS;
+IdModule  = lib.pretty:MXALPS;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A87E6;
 Reference = S38;
 ValeurCmp = SW;
-IdModule  = MXALPS_OVALS;
+IdModule  = lib.pretty:MXALPS;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A87F4;
 Reference = S39;
 ValeurCmp = SW;
-IdModule  = MXALPS_OVALS;
+IdModule  = lib.pretty:MXALPS;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A8802;
 Reference = S40;
 ValeurCmp = SW;
-IdModule  = MXALPS_OVALS;
+IdModule  = lib.pretty:MXALPS;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A8810;
 Reference = S41;
 ValeurCmp = SW;
-IdModule  = MXALPS_OVALS;
+IdModule  = lib.pretty:MXALPS;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A881E;
 Reference = S42;
 ValeurCmp = SW;
-IdModule  = MXALPS_OVALS;
+IdModule  = lib.pretty:MXALPS;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A882C;
 Reference = S43;
 ValeurCmp = SW;
-IdModule  = MXALPS_OVALS;
+IdModule  = lib.pretty:MXALPS;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A883A;
 Reference = S44;
 ValeurCmp = SW;
-IdModule  = MXALPS_OVALS;
+IdModule  = lib.pretty:MXALPS;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A8848;
 Reference = S45;
 ValeurCmp = SW;
-IdModule  = MXALPS_OVALS;
+IdModule  = lib.pretty:MXALPS;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A8856;
 Reference = S46;
 ValeurCmp = SW;
-IdModule  = MXALPS_OVALS;
+IdModule  = lib.pretty:MXALPS;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A8864;
 Reference = S47;
 ValeurCmp = SW;
-IdModule  = MXALPS_OVALS;
+IdModule  = lib.pretty:MXALPS;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A8872;
 Reference = S48;
 ValeurCmp = SW;
-IdModule  = MXALPS_OVALS;
+IdModule  = lib.pretty:MXALPS;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A8880;
 Reference = S49;
 ValeurCmp = SW;
-IdModule  = MXALPS_OVALS;
+IdModule  = lib.pretty:MXALPS;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A888E;
 Reference = S50;
 ValeurCmp = SW;
-IdModule  = MXALPS_OVALS;
+IdModule  = lib.pretty:MXALPS;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A889C;
 Reference = S51;
 ValeurCmp = SW;
-IdModule  = MXALPS_OVALS;
+IdModule  = lib.pretty:MXALPS;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A88AA;
 Reference = S52;
 ValeurCmp = SW;
-IdModule  = MXALPS_OVALS;
+IdModule  = lib.pretty:MXALPS;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A88B8;
 Reference = S53;
 ValeurCmp = SW;
-IdModule  = MXALPS_OVALS;
+IdModule  = lib.pretty:MXALPS;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A88C6;
 Reference = S54;
 ValeurCmp = SW;
-IdModule  = MXALPS_OVALS;
+IdModule  = lib.pretty:MXALPS;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A88D4;
 Reference = S55;
 ValeurCmp = SW;
-IdModule  = MXALPS_OVALS;
+IdModule  = lib.pretty:MXALPS;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A88E2;
 Reference = S56;
 ValeurCmp = SW;
-IdModule  = MXALPS_OVALS;
+IdModule  = lib.pretty:MXALPS;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A88F0;
 Reference = S57;
 ValeurCmp = SW;
-IdModule  = MXALPS_OVALS;
+IdModule  = lib.pretty:MXALPS;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A88FE;
 Reference = S58;
 ValeurCmp = SW;
-IdModule  = MXALPS_OVALS;
+IdModule  = lib.pretty:MXALPS;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A890C;
 Reference = S59;
 ValeurCmp = SW;
-IdModule  = MXALPS_OVALS;
+IdModule  = lib.pretty:MXALPS;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A891A;
 Reference = S60;
 ValeurCmp = SW;
-IdModule  = MXALPS_OVALS;
+IdModule  = lib.pretty:MXALPS;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A8928;
 Reference = S61;
 ValeurCmp = SW;
-IdModule  = MXALPS_OVALS;
+IdModule  = lib.pretty:MXALPS;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/539A8936;
 Reference = S62;
 ValeurCmp = SW;
-IdModule  = MXALPS_OVALS;
+IdModule  = lib.pretty:MXALPS;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/53ACD9B1;
 Reference = S63;
 ValeurCmp = SW;
-IdModule  = MXALPS_OVALS;
+IdModule  = lib.pretty:MXALPS;
 EndCmp
 
 BeginCmp
 TimeStamp = /539CFF84/50466EFD;
 Reference = S64;
 ValeurCmp = TAC_SWITCHSMD_EVQP2;
-IdModule  = TACT_4x3;
+IdModule  = lib.pretty:TACT_4x3;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/53FE943E;
 Reference = Ss56;
 ValeurCmp = SW;
-IdModule  = MXALPS_OVALS;
+IdModule  = lib.pretty:MXALPS_HIDDEN;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/53FE944D;
 Reference = Ss57;
 ValeurCmp = SW;
-IdModule  = MXALPS_OVALS;
+IdModule  = lib.pretty:MXALPS_HIDDEN;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/53FE945A;
 Reference = Ss58;
 ValeurCmp = SW;
-IdModule  = MXALPS_OVALS;
+IdModule  = lib.pretty:MXALPS_HIDDEN;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/53FE9460;
 Reference = Ss59;
 ValeurCmp = SW;
-IdModule  = MXALPS_OVALS;
+IdModule  = lib.pretty:MXALPS_HIDDEN;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/53FE9466;
 Reference = Ss60;
 ValeurCmp = SW;
-IdModule  = MXALPS_OVALS;
+IdModule  = lib.pretty:MXALPS_HIDDEN;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/53FE946C;
 Reference = Ss61;
 ValeurCmp = SW;
-IdModule  = MXALPS_OVALS;
+IdModule  = lib.pretty:MXALPS_HIDDEN;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/53FE9472;
 Reference = Ss62;
 ValeurCmp = SW;
-IdModule  = MXALPS_OVALS;
+IdModule  = lib.pretty:MXALPS_HIDDEN;
 EndCmp
 
 BeginCmp
 TimeStamp = /539BD18D/53FE9478;
 Reference = Ss63;
 ValeurCmp = SW;
-IdModule  = MXALPS_OVALS;
+IdModule  = lib.pretty:MXALPS_HIDDEN;
 EndCmp
 
 BeginCmp
 TimeStamp = /539CFF84/5044CEB6;
 Reference = U1;
 ValeurCmp = MK20LF;
-IdModule  = LQFP48;
+IdModule  = lib.pretty:LQFP48;
 EndCmp
 
 EndListe

@@ -1,4 +1,0 @@
-Regex for flipping text:
-
-(fp_text reference S\d+.*)(F.SilkS\))(\r\n.*thickness 0.3048\)\))
-\1B.SilkS\)\3 \(justify mirror\)
