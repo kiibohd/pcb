@@ -1,0 +1,10 @@
+(module STAB (layer F.Cu) (tedit 553D9128)
+  (fp_text reference Ref** (at 0 0 90) (layer F.SilkS) hide
+    (effects (font (size 1.5 1.5) (thickness 0.15)))
+  )
+  (fp_text value STAB (at 0 0 90) (layer F.SilkS) hide
+    (effects (font (size 1.5 1.5) (thickness 0.15)))
+  )
+  (pad "" np_thru_hole circle (at 0 -6.98754) (size 3.048254 3.048254) (drill 3.048) (layers *.Cu *.Mask F.SilkS))
+  (pad "" np_thru_hole circle (at 0 8.255) (size 3.988054 3.988054) (drill 3.9878) (layers *.Cu *.Mask F.SilkS))
+)
