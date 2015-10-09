@@ -1,0 +1,39 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CONN_10
+D Protocol Debug
+$ENDCMP
+#
+$CMP CONN_17
+D Protocol Debug
+$ENDCMP
+#
+$CMP CONN_6
+D Protocol Debug
+$ENDCMP
+#
+$CMP CONN_8
+D Protocol Debug
+$ENDCMP
+#
+$CMP FLASH_HDR
+D Segger Jlink
+$ENDCMP
+#
+$CMP NHD-C12832A1Z
+D NHD-C12832A1Z-FS(RGB)-FBW-3V
+$ENDCMP
+#
+$CMP RGBLED
+K LED
+$ENDCMP
+#
+$CMP RGBLED_C
+K LED
+$ENDCMP
+#
+$CMP USB3_MICRO
+D USB 3 Connector
+$ENDCMP
+#
+#End Doc Library

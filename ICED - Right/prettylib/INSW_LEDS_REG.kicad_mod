@@ -1,0 +1,11 @@
+(module INSW_LEDS_REG (layer F.Cu) (tedit 55B6D954)
+  (attr smd)
+  (fp_text reference >NAME (at 0 -1.5) (layer B.SilkS)
+    (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
+  )
+  (fp_text value Val** (at 0 2.413) (layer F.SilkS) hide
+    (effects (font (thickness 0.3048)))
+  )
+  (pad 2 thru_hole oval (at 1.27 0) (size 1.4 1.4) (drill 0.8) (layers *.Cu *.Mask F.SilkS))
+  (pad 1 thru_hole rect (at -1.27 0) (size 1.4 1.4) (drill 0.8) (layers *.Cu *.Mask F.SilkS))
+)

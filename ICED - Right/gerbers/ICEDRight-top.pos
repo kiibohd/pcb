@@ -1,0 +1,13 @@
+### Module positions - created on 8/6/2015 11:08:07 PM ###
+### Printed by Pcbnew version kicad (2015-07-17 BZR 5958)-product
+## Unit = inches, Angle = deg.
+## Side : top
+# Ref    Val                  Package         PosX       PosY        Rot     Side
+FID2     >VALUE           FID                 0.0000     0.0000       0.0    top
+FID4     >VALUE           FID                 4.3000    -2.4000       0.0    top
+FID6     >VALUE           FID                -1.0000    -3.7000       0.0    top
+P2       USB3_MICRO       USB3_MICROB_STAK    1.4387     0.4900     180.0    top
+P4       USB3_AFEMALE     USB3_AFEMALE_MOD    0.4700     0.4000     180.0    top
+R1       33               SMD-1005            1.6100     0.1900       0.0    top
+R2       33               SMD-1005            1.5600     0.1900       0.0    top
+## End
