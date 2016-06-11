@@ -8,6 +8,7 @@ A project will be explicit if another program is required to view.
 Projects
 --------
 
+* WhiteFox, 2016-06-11
 * IC60 (Infinity 60% Keyboard, 2015-08-01)
 * ICED Left and Right (Infinity Ergodox, 2015-08-07)
 * DPH (Model F capsense controller using teensy2++)

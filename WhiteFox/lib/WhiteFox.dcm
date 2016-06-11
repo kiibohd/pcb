@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CONN_15
+D Protocol Debug
+$ENDCMP
+#
+$CMP CONN_17
+D Protocol Debug
+$ENDCMP
+#
+$CMP FLASH_HDR
+D Segger Jlink
+$ENDCMP
+#
+#End Doc Library
