@@ -9,6 +9,6 @@ Projects
 --------
 
 * WhiteFox, 2016-06-11
-* IC60 (Infinity 60% Keyboard, 2015-08-01)
+* IC60 (Infinity 60% Keyboard, 2016-20-07)
 * ICED Left and Right (Infinity Ergodox, 2015-08-07)
 * DPH (Model F capsense controller using teensy2++)
