@@ -1,4 +1,4 @@
-update=7/25/2015 11:57:55 AM
+update=7/20/2016 9:24:13 AM
 version=1
 last_client=kicad
 [general]
@@ -33,6 +33,11 @@ LibName1=holes
 LibName2=mchck
 LibName3=logo
 LibName4=massdrop1
+[eeschema]
+version=1
+LibDir=lib
+[eeschema/libraries]
+LibName1=lib/IC60
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -42,12 +47,5 @@ SubpartFirstId=65
 NetFmtName=
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
-RptD_X=0
-RptD_Y=100
-RptLab=1
 LabSize=60
-[eeschema]
-version=1
-LibDir=lib
-[eeschema/libraries]
-LibName1=lib/IC60
+ERC_TestSimilarLabels=1
