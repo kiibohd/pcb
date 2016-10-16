@@ -7,8 +7,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 3
 Title "ICED-R"
-Date "2015-08-07"
-Rev "Rev 1.1d"
+Date "2016-07-17"
+Rev "Rev 1.2b"
 Comp "Input Club"
 Comment1 ""
 Comment2 ""

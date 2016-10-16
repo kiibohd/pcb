@@ -1,4 +1,4 @@
 (fp_lib_table
-  (lib (name massdropdox)(type Legacy)(uri ${KIPRJMOD}/lib/massdropdox.mod)(options "")(descr ""))
   (lib (name prettylib)(type KiCad)(uri ${KIPRJMOD}/prettylib)(options "")(descr ""))
 )
+

@@ -1,7 +1,7 @@
-(module SOT123-DIODE (layer F.Cu) (tedit 55BE6952)
+(module SOT123-DIODE (layer F.Cu) (tedit 55C2C69D)
   (descr DIODE)
   (tags DIODE)
-  (fp_text reference >NAME (at 0 -4.1 90) (layer F.SilkS)
+  (fp_text reference >NAME (at 0 -3.81 90) (layer F.SilkS)
     (effects (font (size 1.016 1.016) (thickness 0.2032)))
   )
   (fp_text value >VALUE (at 2.032 0 90) (layer F.SilkS) hide
@@ -16,9 +16,4 @@
   (fp_line (start 0.8509 1.45034) (end 0.8509 -1.45034) (layer F.SilkS) (width 0.22098))
   (pad 2 smd rect (at 0 -1.7526 270) (size 1.00076 0.8509) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at 0 1.74752 270) (size 1.00076 0.8509) (layers F.Cu F.Paste F.Mask))
-  (model SOD123.wrl
-    (at (xyz 0 0 -0.003))
-    (scale (xyz 0.393701 0.393701 0.393701))
-    (rotate (xyz 0 0 90))
-  )
 )

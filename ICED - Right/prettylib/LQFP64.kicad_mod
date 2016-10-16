@@ -81,9 +81,9 @@
   (pad 62 smd rect (at -2.75 -5.75 90) (size 1.5 0.3) (layers F.Cu F.Paste F.Mask))
   (pad 63 smd rect (at -3.25 -5.75 90) (size 1.5 0.3) (layers F.Cu F.Paste F.Mask))
   (pad 64 smd rect (at -3.75 -5.75 90) (size 1.5 0.3) (layers F.Cu F.Paste F.Mask))
-  (model LQFP-64_10x10mm_Pitch0.5mm.wrl
+  (model 3d/AB2_LQFP64.wrl
     (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
+    (scale (xyz 0.3937007874 0.3937007874 0.3937007874))
     (rotate (xyz 0 0 0))
   )
 )

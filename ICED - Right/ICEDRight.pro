@@ -1,4 +1,4 @@
-update=7/15/2015 6:42:35 PM
+update=10/11/2016 12:43:34 AM
 version=1
 last_client=kicad
 [general]
@@ -33,3 +33,14 @@ version=1
 LibDir=lib
 [eeschema/libraries]
 LibName1=lib/ICEDRight
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=./
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
+ERC_TestSimilarLabels=1
