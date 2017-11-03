@@ -1,0 +1,15 @@
+### Module positions - created on 11/03/17 01:05:12 ###
+### Printed by Pcbnew version kicad (2017-09-19 revision dddaa7e69)-makepkg
+## Unit = inches, Angle = deg.
+## Side : top
+# Ref     Val       Package                        PosX       PosY       Rot  Side
+FID1      >VALUE    FID                          0.0000     0.0000  270.0000  top
+FID3      >VALUE    FID                         13.6250     0.0000   90.0000  top
+FID5      >VALUE    FID                          0.0000    -3.4450  180.0000  top
+J1        USBC      USB_C_MIDMOUNT_TH_IMPCUT     0.6250     0.8780  180.0000  top
+J2        USBC      USB_C_MIDMOUNT_TH_IMPCUT    13.0000     0.8780  180.0000  top
+R7        5.1k      SMD-0402                     0.7150     0.7025   90.0000  top
+R8        5.1k      SMD-0402                    13.0850     0.7025   90.0000  top
+R10       5.1k      SMD-0402                     0.5400     0.7025  270.0000  top
+R11       5.1k      SMD-0402                    12.9150     0.7025  270.0000  top
+## End
