@@ -1,0 +1,10 @@
+(module INSW_LEDS_HIDDEN (layer F.Cu) (tedit 597CB2D0)
+  (fp_text reference >NAME (at 0 -1.65) (layer B.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
+  )
+  (fp_text value Val** (at 0 3) (layer B.SilkS) hide
+    (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
+  )
+  (pad 2 thru_hole oval (at 1.27 0) (size 1.8 1.8) (drill 1.04) (layers *.Cu *.Mask))
+  (pad 1 thru_hole rect (at -1.27 0) (size 1.8 1.8) (drill 1.04) (layers *.Cu *.Mask))
+)

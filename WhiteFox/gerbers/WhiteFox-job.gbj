@@ -1,0 +1,33 @@
+G04 Gerber job file with board parameters*
+%TF.FileFunction,JobInfo*%
+%TF.Part,SinglePCB*%
+G04 Single PCB fabrication instructions*
+%TF.GenerationSoftware,KiCad,Pcbnew,(2017-09-19 revision dddaa7e69)-makepkg*%
+%TF.CreationDate,2017-11-22T14:32:36-05:00*%
+%TF.ProjectId,WhiteFox,5768697465466F782E6B696361645F70,1.1c*%
+%MOMM*%
+G04 Overall board parameters*
+%TJ.B.Size.X,304.927*%
+%TJ.B.Size.Y,101.270*%
+%TJ.B.LayerNum,2*%
+%TJ.B.Overall.Thickness,1.600*%
+%TJ.B.Legend.Present,Both*%
+%TJ.B.SolderMask.Present,Both*%
+G04 board design rules*
+%TJ.D.PadToPad.Outer,0.102*%
+%TJ.D.PadToTrack.Outer,0.102*%
+%TJ.D.TrackToTrack.Outer,0.102*%
+%TJ.D.MinLineWidth.Outer,0.102*%
+%TJ.D.TrackToRegion.Outer,0.254*%
+%TJ.D.RegionToRegion.Outer,0.254*%
+G04 Layer Structure*
+%TJ.L."Copper,L1,Top",Positive,WhiteFox-Front.gtl*%
+%TJ.L."Copper,L2,Bot",Positive,WhiteFox-Back.gbl*%
+%TJ.L."SolderPaste,Bot",Positive,WhiteFox-B.Paste.gbp*%
+%TJ.L."SolderPaste,Top",Positive,WhiteFox-F.Paste.gtp*%
+%TJ.L."Legend,Bot",Positive,WhiteFox-B.SilkS.gbo*%
+%TJ.L."Legend,Top",Positive,WhiteFox-F.SilkS.gto*%
+%TJ.L."SolderMask,Bot",Negative,WhiteFox-B.Mask.gbs*%
+%TJ.L."SolderMask,Top",Negative,WhiteFox-F.Mask.gts*%
+%TJ.L."Profile",Positive,WhiteFox-Edge.Cuts.gm1*%
+M02*

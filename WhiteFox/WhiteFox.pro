@@ -1,4 +1,4 @@
-update=7/27/2015 11:36:22 PM
+update=3/20/2018 10:28:54 PM
 version=1
 last_client=kicad
 [general]
@@ -33,6 +33,14 @@ LibName1=logo
 LibName2=massdropdox
 [eeschema]
 version=1
-LibDir=lib
-[eeschema/libraries]
-LibName1=lib/WhiteFox
+LibDir=
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=.
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=60
+ERC_TestSimilarLabels=1
