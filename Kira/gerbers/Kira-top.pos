@@ -1,0 +1,12 @@
+### Module positions - created on 07/24/18 23:22:55 ###
+### Printed by Pcbnew version kicad (6.0.0-rc1-dev-143-gf79ca271e)
+## Unit = inches, Angle = deg.
+## Side : top
+# Ref     Val       Package                PosX       PosY       Rot  Side
+FID1      FIDUCIAL  FID                  0.0000     0.0000  270.0000  top
+FID2      FIDUCIAL  FID                 13.8750     0.0000   90.0000  top
+FID3      FIDUCIAL  FID                  0.0000    -3.0000  180.0000  top
+LED126    RGBLED    LED_RGB_1615        14.1910     0.6185    0.0000  top
+LED127    RGBLED    LED_RGB_1615        14.1910     0.3825    0.0000  top
+LED128    RGBLED    LED_RGB_1615        14.1910     0.1465    0.0000  top
+## End

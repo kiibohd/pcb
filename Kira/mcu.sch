@@ -1,0 +1,2573 @@
+EESchema Schematic File Version 4
+LIBS:Kira-cache
+EELAYER 26 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 2 3
+Title "Kira"
+Date "2018-11-26"
+Rev "1.02c"
+Comp "Input Club"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Kira:LED LED129
+U 1 1 4E418482
+P 13000 5800
+F 0 "LED129" H 13000 5700 50  0000 C CNN
+F 1 "LED" V 13100 5950 50  0001 C CNN
+F 2 "footprints:LED-0603" H 13000 5900 60  0001 C CNN
+F 3 "" H 13000 5800 60  0001 C CNN
+F 4 "0603 Orange LED" H 13000 5800 50  0001 C CNN "Description"
+F 5 "HH-SMD0603COC" H 13000 5800 50  0001 C CNN "Manufacturer PN"
+F 6 "Hanhua" H 13000 5800 50  0001 C CNN "Manufacturer"
+	1    13000 5800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Kira:VSS #PWR01
+U 1 1 50460275
+P 11750 3300
+F 0 "#PWR01" H 11750 3300 30  0001 C CNN
+F 1 "VSS" H 11750 3230 30  0000 C CNN
+F 2 "" H 11750 3300 60  0001 C CNN
+F 3 "" H 11750 3300 60  0001 C CNN
+	1    11750 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:VSS #PWR03
+U 1 1 504603CB
+P 13800 7200
+F 0 "#PWR03" H 13800 7200 30  0001 C CNN
+F 1 "VSS" H 13800 7130 30  0000 C CNN
+F 2 "" H 13800 7200 60  0001 C CNN
+F 3 "" H 13800 7200 60  0001 C CNN
+	1    13800 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:VSS #PWR04
+U 1 1 50460578
+P 12850 7150
+F 0 "#PWR04" H 12850 7150 30  0001 C CNN
+F 1 "VSS" H 12850 7080 30  0000 C CNN
+F 2 "" H 12850 7150 60  0001 C CNN
+F 3 "" H 12850 7150 60  0001 C CNN
+	1    12850 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:VSS #PWR05
+U 1 1 5047A8E0
+P 12500 5800
+F 0 "#PWR05" H 12500 5800 30  0001 C CNN
+F 1 "VSS" H 12500 5730 30  0000 C CNN
+F 2 "" H 12500 5800 60  0001 C CNN
+F 3 "" H 12500 5800 60  0001 C CNN
+	1    12500 5800
+	0    1    -1   0   
+$EndComp
+$Comp
+L Kira:VSS #PWR08
+U 1 1 539CD891
+P 4050 1550
+F 0 "#PWR08" H 4050 1550 30  0001 C CNN
+F 1 "VSS" H 4050 1480 30  0000 C CNN
+F 2 "" H 4050 1550 60  0000 C CNN
+F 3 "" H 4050 1550 60  0000 C CNN
+	1    4050 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:VSS #PWR014
+U 1 1 55307C94
+P 5975 875
+F 0 "#PWR014" H 5975 875 30  0001 C CNN
+F 1 "VSS" H 5975 805 30  0000 C CNN
+F 2 "" H 5975 875 60  0000 C CNN
+F 3 "" H 5975 875 60  0000 C CNN
+	1    5975 875 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:TAC_SWITCH S100
+U 1 1 5533596A
+P 13500 6850
+F 0 "S100" H 13475 7075 50  0000 L BNN
+F 1 "TAC_SWITCH" H 13275 6650 50  0000 L BNN
+F 2 "footprints:TACT_5.2x5.2" H 13500 7000 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/15/SKQG-1155865.pdf" H 13500 6850 60  0001 C CNN
+F 4 "Tactile Switches 50 mAmps at 12 Volts" H 13475 7175 50  0001 C CNN "Description"
+F 5 "SKQGAKE010" H 13475 7175 50  0001 C CNN "Manufacturer PN"
+F 6 "ALPS" H 13475 7175 50  0001 C CNN "Manufacturer"
+	1    13500 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:FLASH_HDR P1
+U 1 1 552F5625
+P 4800 1200
+F 0 "P1" H 4600 900 59  0000 C CNN
+F 1 "FLASH_HDR" V 4800 1200 59  0001 C CNN
+F 2 "footprints:JLINK_NEEDLE" H 4800 1200 60  0001 C CNN
+F 3 "" H 4800 1200 60  0001 C CNN
+F 4 "Dual-row" H 4570 970 5   0001 L BNN "Field4"
+	1    4800 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:PWR_FLAG #FLG019
+U 1 1 5530A596
+P 8900 2750
+F 0 "#FLG019" H 8900 2845 30  0001 C CNN
+F 1 "PWR_FLAG" H 8900 2930 30  0000 C CNN
+F 2 "" H 8900 2750 60  0000 C CNN
+F 3 "" H 8900 2750 60  0000 C CNN
+	1    8900 2750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Kira:C_Small C12
+U 1 1 56AD4C6E
+P 12025 3125
+F 0 "C12" H 12025 3175 50  0000 L CNN
+F 1 "0.1uF" H 12025 3075 35  0000 L CNN
+F 2 "footprints:SMD-0402" H 12025 3125 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 12025 3125 50  0001 C CNN
+F 4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0.1uF 6.3V X7R +/-10% 0402 Gen Purp " H 12025 3275 50  0001 C CNN "Description"
+F 5 "JMK105B7104KV-F" H 12025 3275 50  0001 C CNN "Manufacturer PN"
+F 6 "Taiyo Yuden " H 12025 3275 50  0001 C CNN "Manufacturer"
+F 7 "10 %" H 12025 3275 50  0001 C CNN "Tolerance"
+F 8 "6.3 VDC" H 12025 3275 50  0001 C CNN "Voltage Rating"
+	1    12025 3125
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:C_Small C11
+U 1 1 56AD535C
+P 11750 3125
+F 0 "C11" H 11750 3175 50  0000 L CNN
+F 1 "0.1uF" H 11750 3075 35  0000 L CNN
+F 2 "footprints:SMD-0402" H 11750 3125 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 11750 3125 50  0001 C CNN
+F 4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0.1uF 6.3V X7R +/-10% 0402 Gen Purp " H 11750 3275 50  0001 C CNN "Description"
+F 5 "JMK105B7104KV-F" H 11750 3275 50  0001 C CNN "Manufacturer PN"
+F 6 "Taiyo Yuden " H 11750 3275 50  0001 C CNN "Manufacturer"
+F 7 "10 %" H 11750 3275 50  0001 C CNN "Tolerance"
+F 8 "6.3 VDC" H 11750 3275 50  0001 C CNN "Voltage Rating"
+	1    11750 3125
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:R_Small R10
+U 1 1 56AD8511
+P 12925 5175
+F 0 "R10" V 12850 5100 50  0000 L CNN
+F 1 "100" V 12925 5175 35  0000 C CNN
+F 2 "footprints:SMD-0402" H 12925 5175 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/219/RK73B-919.pdf" H 12925 5175 50  0001 C CNN
+F 4 "Thick Film Resistors - SMD 0.1W 100ohms 5%" H 12850 5200 50  0001 C CNN "Description"
+F 5 "RK73B1ETTP101J" H 12850 5200 50  0001 C CNN "Manufacturer PN"
+F 6 "KOA Speer" H 12850 5200 50  0001 C CNN "Manufacturer"
+F 7 "5%" H 12850 5200 50  0001 C CNN "Tolerance"
+F 8 "50 VDC" H 12850 5200 50  0001 C CNN "Voltage Rating"
+	1    12925 5175
+	0    1    -1   0   
+$EndComp
+$Comp
+L Kira:R_Small R11
+U 1 1 56AD8881
+P 12925 5000
+F 0 "R11" V 12850 4925 50  0000 L CNN
+F 1 "100" V 12925 5000 35  0000 C CNN
+F 2 "footprints:SMD-0402" H 12925 5000 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/219/RK73B-919.pdf" H 12925 5000 50  0001 C CNN
+F 4 "Thick Film Resistors - SMD 0.1W 100ohms 5%" H 12850 5025 50  0001 C CNN "Description"
+F 5 "RK73B1ETTP101J" H 12850 5025 50  0001 C CNN "Manufacturer PN"
+F 6 "KOA Speer" H 12850 5025 50  0001 C CNN "Manufacturer"
+F 7 "5%" H 12850 5025 50  0001 C CNN "Tolerance"
+F 8 "50 VDC" H 12850 5025 50  0001 C CNN "Voltage Rating"
+	1    12925 5000
+	0    1    -1   0   
+$EndComp
+$Comp
+L Kira:R_Small R12
+U 1 1 56AD9E88
+P 12650 5800
+F 0 "R12" V 12725 5725 50  0000 L CNN
+F 1 "1k" V 12650 5800 35  0000 C CNN
+F 2 "footprints:SMD-0402" H 12650 5800 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/219/RK73B-919.pdf" H 12650 5800 50  0001 C CNN
+F 4 "Thick Film Resistors - SMD 0.1W 1Kohms 5%" H 12725 5825 50  0001 C CNN "Description"
+F 5 "RK73B1ETTP102J" H 12725 5825 50  0001 C CNN "Manufacturer PN"
+F 6 "KOA Speer" H 12725 5825 50  0001 C CNN "Manufacturer"
+F 7 "5%" H 12725 5825 50  0001 C CNN "Tolerance"
+F 8 "50 VDC" H 12725 5825 50  0001 C CNN "Voltage Rating"
+	1    12650 5800
+	0    1    -1   0   
+$EndComp
+$Comp
+L Kira:C_Small C9
+U 1 1 56ADB9B5
+P 11250 3125
+F 0 "C9" H 11250 3175 50  0000 L CNN
+F 1 "0.1uF" H 11250 3075 35  0000 L CNN
+F 2 "footprints:SMD-0402" H 11250 3125 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 11250 3125 50  0001 C CNN
+F 4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0.1uF 6.3V X7R +/-10% 0402 Gen Purp " H 11250 3275 50  0001 C CNN "Description"
+F 5 "JMK105B7104KV-F" H 11250 3275 50  0001 C CNN "Manufacturer PN"
+F 6 "Taiyo Yuden " H 11250 3275 50  0001 C CNN "Manufacturer"
+F 7 "10 %" H 11250 3275 50  0001 C CNN "Tolerance"
+F 8 "6.3 VDC" H 11250 3275 50  0001 C CNN "Voltage Rating"
+	1    11250 3125
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:C_Small C10
+U 1 1 56ADCC6E
+P 11475 3125
+F 0 "C10" H 11475 3175 50  0000 L CNN
+F 1 "0.1uF" H 11475 3075 35  0000 L CNN
+F 2 "footprints:SMD-0402" H 11475 3125 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 11475 3125 50  0001 C CNN
+F 4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0.1uF 6.3V X7R +/-10% 0402 Gen Purp " H 11475 3275 50  0001 C CNN "Description"
+F 5 "JMK105B7104KV-F" H 11475 3275 50  0001 C CNN "Manufacturer PN"
+F 6 "Taiyo Yuden " H 11475 3275 50  0001 C CNN "Manufacturer"
+F 7 "10 %" H 11475 3275 50  0001 C CNN "Tolerance"
+F 8 "6.3 VDC" H 11475 3275 50  0001 C CNN "Voltage Rating"
+	1    11475 3125
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:C_Small C18
+U 1 1 56ADE71A
+P 12850 7000
+F 0 "C18" H 12850 7050 50  0000 L CNN
+F 1 "0.1uF" H 12850 6950 35  0000 L CNN
+F 2 "footprints:SMD-0402" H 12850 7000 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 12850 7000 50  0001 C CNN
+F 4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0.1uF 6.3V X7R +/-10% 0402 Gen Purp " H 12850 7150 50  0001 C CNN "Description"
+F 5 "JMK105B7104KV-F" H 12850 7150 50  0001 C CNN "Manufacturer PN"
+F 6 "Taiyo Yuden " H 12850 7150 50  0001 C CNN "Manufacturer"
+F 7 "10 %" H 12850 7150 50  0001 C CNN "Tolerance"
+F 8 "6.3 VDC" H 12850 7150 50  0001 C CNN "Voltage Rating"
+	1    12850 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:IS31FL3733 U2
+U 1 1 584EB329
+P 2025 2350
+F 0 "U2" H 2025 4195 59  0000 C CNN
+F 1 "IS31FL3733" H 2025 4090 59  0000 C CNN
+F 2 "footprints:IS31FL3733" H 2025 3250 60  0001 C CNN
+F 3 "http://www.issi.com/WW/pdf/IS31FL3733.pdf" H 2025 3250 60  0001 C CNN
+F 4 "ISSI" H 2025 4295 50  0001 C CNN "Alt 1 Manufacturer"
+F 5 "IS31FL3733-TQLS4" H 2025 4295 50  0001 C CNN "Alt 1 PN"
+F 6 "LED Display Drivers 12x16 Dot Matrix LED Driver, QFN-48 (6.0mm x 6.0mm), T&R" H 2025 4295 50  0001 C CNN "Description"
+F 7 "IS31FL3733-QFLS4-TR" H 2025 4295 50  0001 C CNN "Manufacturer PN"
+F 8 "ISSI" H 2025 4295 50  0001 C CNN "Manufacturer"
+	1    2025 2350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Kira:C_Small_Pol C4
+U 1 1 5745E329
+P 3125 850
+F 0 "C4" H 3125 900 50  0000 L CNN
+F 1 "22uF" H 3125 800 35  0000 L CNN
+F 2 "footprints:SMD-7343-Pol" H 3125 850 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/315/ABE0000C49-947552.pdf" H 3125 850 50  0001 C CNN
+F 4 "Aluminum Organic Polymer Capacitors 22uF 20volt " H 3125 1000 50  0001 C CNN "Description"
+F 5 "EEF-CX1D220R" H 3125 1000 50  0001 C CNN "Manufacturer PN"
+F 6 "Panasonic" H 3125 1000 50  0001 C CNN "Manufacturer"
+F 7 "20 %" H 3125 1000 50  0001 C CNN "Tolerance"
+F 8 "20 VDC" H 3125 1000 50  0001 C CNN "Voltage Rating"
+	1    3125 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:R_Small R7
+U 1 1 56AD167D
+P 2675 3750
+F 0 "R7" H 2725 3750 50  0000 L CNN
+F 1 "20k" V 2675 3750 35  0000 C CNN
+F 2 "footprints:SMD-0402" H 2675 3750 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/219/RK73B-919.pdf" H 2675 3750 50  0001 C CNN
+F 4 "Thick Film Resistors - SMD 0.1W 20Kohms 5%" H 2725 3850 50  0001 C CNN "Description"
+F 5 "RK73B1ETTP203J" H 2725 3850 50  0001 C CNN "Manufacturer PN"
+F 6 "KOA Speer" H 2725 3850 50  0001 C CNN "Manufacturer"
+F 7 "5%" H 2725 3850 50  0001 C CNN "Tolerance"
+F 8 "50 VDC" H 2725 3850 50  0001 C CNN "Voltage Rating"
+	1    2675 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:+5V #PWR028
+U 1 1 56ACF1F4
+P 3025 650
+F 0 "#PWR028" H 3025 740 20  0001 C CNN
+F 1 "+5V" H 3025 740 30  0000 C CNN
+F 2 "" H 3025 650 60  0000 C CNN
+F 3 "" H 3025 650 60  0000 C CNN
+	1    3025 650 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:C_Small C2
+U 1 1 56ACA927
+P 2575 850
+F 0 "C2" H 2575 900 50  0000 L CNN
+F 1 "0.1uF" H 2575 800 35  0000 L CNN
+F 2 "footprints:SMD-0402" H 2575 850 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 2575 850 50  0001 C CNN
+F 4 "https://www.mouser.com/datasheet/2/445/885012105010-610995.pdf" H 2575 1000 50  0001 C CNN "Alt 1 Datasheet"
+F 5 "Wurth" H 2575 1000 50  0001 C CNN "Alt 1 Manufacturer"
+F 6 "885012105010" H 2575 1000 50  0001 C CNN "Alt 1 PN"
+F 7 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0.1uF 10V X7R +/-10% 0402 Gen Purp " H 2575 1000 50  0001 C CNN "Description"
+F 8 "LMK105B7104KV-F" H 2575 1000 50  0001 C CNN "Manufacturer PN"
+F 9 "Taiyo Yuden " H 2575 1000 50  0001 C CNN "Manufacturer"
+F 10 "10 %" H 2575 1000 50  0001 C CNN "Tolerance"
+F 11 "10 VDC " H 2575 1000 50  0001 C CNN "Voltage Rating"
+	1    2575 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:R_Small R6
+U 1 1 56AC9BD5
+P 3125 3350
+F 0 "R6" H 3175 3350 50  0000 L CNN
+F 1 "100k" V 3125 3350 35  0000 C CNN
+F 2 "footprints:SMD-0402" H 3125 3350 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/219/RK73B-919.pdf" H 3125 3350 50  0001 C CNN
+F 4 "Thick Film Resistors - SMD 0.1W 100Kohms 5% " H 3175 3450 50  0001 C CNN "Description"
+F 5 "RK73B1ETTP104J" H 3175 3450 50  0001 C CNN "Manufacturer PN"
+F 6 "KOA Speer" H 3175 3450 50  0001 C CNN "Manufacturer"
+F 7 "5%" H 3175 3450 50  0001 C CNN "Tolerance"
+F 8 "50 VDC" H 3175 3450 50  0001 C CNN "Voltage Rating"
+	1    3125 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:R_Small R1
+U 1 1 56AC98AB
+P 2575 2000
+F 0 "R1" H 2625 2000 50  0000 L CNN
+F 1 "1k" V 2575 2000 35  0000 C CNN
+F 2 "footprints:SMD-0402" H 2575 2000 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/219/RK73B-919.pdf" H 2575 2000 50  0001 C CNN
+F 4 "Thick Film Resistors - SMD 0.1W 1Kohms 5%" H 2625 2100 50  0001 C CNN "Description"
+F 5 "RK73B1ETTP102J" H 2625 2100 50  0001 C CNN "Manufacturer PN"
+F 6 "KOA Speer" H 2625 2100 50  0001 C CNN "Manufacturer"
+F 7 "5%" H 2625 2100 50  0001 C CNN "Tolerance"
+F 8 "50 VDC" H 2625 2100 50  0001 C CNN "Voltage Rating"
+	1    2575 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:R_Small R2
+U 1 1 56AC9737
+P 2825 2000
+F 0 "R2" H 2875 2000 50  0000 L CNN
+F 1 "1k" V 2825 2000 35  0000 C CNN
+F 2 "footprints:SMD-0402" H 2825 2000 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/219/RK73B-919.pdf" H 2825 2000 50  0001 C CNN
+F 4 "Thick Film Resistors - SMD 0.1W 1Kohms 5%" H 2875 2100 50  0001 C CNN "Description"
+F 5 "RK73B1ETTP102J" H 2875 2100 50  0001 C CNN "Manufacturer PN"
+F 6 "KOA Speer" H 2875 2100 50  0001 C CNN "Manufacturer"
+F 7 "5%" H 2875 2100 50  0001 C CNN "Tolerance"
+F 8 "50 VDC" H 2875 2100 50  0001 C CNN "Voltage Rating"
+	1    2825 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:R_Small R3
+U 1 1 56AC944B
+P 3125 2000
+F 0 "R3" H 3175 2000 50  0000 L CNN
+F 1 "100k" V 3125 2000 35  0000 C CNN
+F 2 "footprints:SMD-0402" H 3125 2000 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/219/RK73B-919.pdf" H 3125 2000 50  0001 C CNN
+F 4 "Thick Film Resistors - SMD 0.1W 100Kohms 5% " H 3175 2100 50  0001 C CNN "Description"
+F 5 "RK73B1ETTP104J" H 3175 2100 50  0001 C CNN "Manufacturer PN"
+F 6 "KOA Speer" H 3175 2100 50  0001 C CNN "Manufacturer"
+F 7 "5%" H 3175 2100 50  0001 C CNN "Tolerance"
+F 8 "50 VDC" H 3175 2100 50  0001 C CNN "Voltage Rating"
+	1    3125 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:VSS #PWR029
+U 1 1 54B2DB3A
+P 3125 3500
+F 0 "#PWR029" H 3125 3500 30  0001 C CNN
+F 1 "VSS" H 3125 3430 30  0000 C CNN
+F 2 "~" H 3125 3500 60  0000 C CNN
+F 3 "~" H 3125 3500 60  0000 C CNN
+	1    3125 3500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Kira:C_Small C3
+U 1 1 5855D242
+P 2825 850
+F 0 "C3" H 2825 900 50  0000 L CNN
+F 1 "0.47uF" H 2825 800 35  0000 L CNN
+F 2 "footprints:SMD-0402" H 2825 850 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 2825 850 50  0001 C CNN
+F 4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0.47uF 10V X5R 20% 0402 " H 2825 1000 50  0001 C CNN "Description"
+F 5 "LMK105BJ474MV-F" H 2825 1000 50  0001 C CNN "Manufacturer PN"
+F 6 "Taiyo Yuden " H 2825 1000 50  0001 C CNN "Manufacturer"
+F 7 "20 %" H 2825 1000 50  0001 C CNN "Tolerance"
+F 8 "10 VDC " H 2825 1000 50  0001 C CNN "Voltage Rating"
+	1    2825 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:C_Small C5
+U 1 1 5855D536
+P 2575 1200
+F 0 "C5" H 2575 1250 50  0000 L CNN
+F 1 "0.1uF" H 2575 1150 35  0000 L CNN
+F 2 "footprints:SMD-0402" H 2575 1200 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 2575 1200 50  0001 C CNN
+F 4 "https://www.mouser.com/datasheet/2/445/885012105010-610995.pdf" H 2575 1350 50  0001 C CNN "Alt 1 Datasheet"
+F 5 "Wurth" H 2575 1350 50  0001 C CNN "Alt 1 Manufacturer"
+F 6 "885012105010" H 2575 1350 50  0001 C CNN "Alt 1 PN"
+F 7 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0.1uF 10V X7R +/-10% 0402 Gen Purp " H 2575 1350 50  0001 C CNN "Description"
+F 8 "LMK105B7104KV-F" H 2575 1350 50  0001 C CNN "Manufacturer PN"
+F 9 "Taiyo Yuden " H 2575 1350 50  0001 C CNN "Manufacturer"
+F 10 "10 %" H 2575 1350 50  0001 C CNN "Tolerance"
+F 11 "10 VDC " H 2575 1350 50  0001 C CNN "Voltage Rating"
+	1    2575 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:C_Small C6
+U 1 1 5855D53C
+P 2825 1200
+F 0 "C6" H 2825 1250 50  0000 L CNN
+F 1 "0.47uF" H 2825 1150 35  0000 L CNN
+F 2 "footprints:SMD-0402" H 2825 1200 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 2825 1200 50  0001 C CNN
+F 4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0.47uF 10V X5R 20% 0402 " H 2825 1350 50  0001 C CNN "Description"
+F 5 "LMK105BJ474MV-F" H 2825 1350 50  0001 C CNN "Manufacturer PN"
+F 6 "Taiyo Yuden " H 2825 1350 50  0001 C CNN "Manufacturer"
+F 7 "20 %" H 2825 1350 50  0001 C CNN "Tolerance"
+F 8 "10 VDC " H 2825 1350 50  0001 C CNN "Voltage Rating"
+	1    2825 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:C_Small C7
+U 1 1 5855D602
+P 2575 1550
+F 0 "C7" H 2575 1600 50  0000 L CNN
+F 1 "0.1uF" H 2575 1500 35  0000 L CNN
+F 2 "footprints:SMD-0402" H 2575 1550 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 2575 1550 50  0001 C CNN
+F 4 "https://www.mouser.com/datasheet/2/445/885012105010-610995.pdf" H 2575 1700 50  0001 C CNN "Alt 1 Datasheet"
+F 5 "Wurth" H 2575 1700 50  0001 C CNN "Alt 1 Manufacturer"
+F 6 "885012105010" H 2575 1700 50  0001 C CNN "Alt 1 PN"
+F 7 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0.1uF 10V X7R +/-10% 0402 Gen Purp " H 2575 1700 50  0001 C CNN "Description"
+F 8 "LMK105B7104KV-F" H 2575 1700 50  0001 C CNN "Manufacturer PN"
+F 9 "Taiyo Yuden " H 2575 1700 50  0001 C CNN "Manufacturer"
+F 10 "10 %" H 2575 1700 50  0001 C CNN "Tolerance"
+F 11 "10 VDC " H 2575 1700 50  0001 C CNN "Voltage Rating"
+	1    2575 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:C_Small C8
+U 1 1 5855D608
+P 2825 1550
+F 0 "C8" H 2825 1600 50  0000 L CNN
+F 1 "0.47uF" H 2825 1500 35  0000 L CNN
+F 2 "footprints:SMD-0402" H 2825 1550 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 2825 1550 50  0001 C CNN
+F 4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0.47uF 10V X5R 20% 0402 " H 2825 1700 50  0001 C CNN "Description"
+F 5 "LMK105BJ474MV-F" H 2825 1700 50  0001 C CNN "Manufacturer PN"
+F 6 "Taiyo Yuden " H 2825 1700 50  0001 C CNN "Manufacturer"
+F 7 "20 %" H 2825 1700 50  0001 C CNN "Tolerance"
+F 8 "10 VDC " H 2825 1700 50  0001 C CNN "Voltage Rating"
+	1    2825 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:VSS #PWR030
+U 1 1 585616FD
+P 2575 1700
+F 0 "#PWR030" H 2575 1700 30  0001 C CNN
+F 1 "VSS" H 2675 1700 30  0000 C CNN
+F 2 "" H 2575 1700 60  0000 C CNN
+F 3 "" H 2575 1700 60  0000 C CNN
+	1    2575 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:VSS #PWR031
+U 1 1 585617EF
+P 2825 1700
+F 0 "#PWR031" H 2825 1700 30  0001 C CNN
+F 1 "VSS" H 2925 1700 30  0000 C CNN
+F 2 "" H 2825 1700 60  0000 C CNN
+F 3 "" H 2825 1700 60  0000 C CNN
+	1    2825 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:VSS #PWR032
+U 1 1 58561CE8
+P 2575 1350
+F 0 "#PWR032" H 2575 1350 30  0001 C CNN
+F 1 "VSS" H 2675 1350 30  0000 C CNN
+F 2 "" H 2575 1350 60  0000 C CNN
+F 3 "" H 2575 1350 60  0000 C CNN
+	1    2575 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:VSS #PWR033
+U 1 1 58561DDA
+P 2825 1350
+F 0 "#PWR033" H 2825 1350 30  0001 C CNN
+F 1 "VSS" H 2925 1350 30  0000 C CNN
+F 2 "" H 2825 1350 60  0000 C CNN
+F 3 "" H 2825 1350 60  0000 C CNN
+	1    2825 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:VSS #PWR034
+U 1 1 58561ECC
+P 2825 1000
+F 0 "#PWR034" H 2825 1000 30  0001 C CNN
+F 1 "VSS" H 2925 1000 30  0000 C CNN
+F 2 "" H 2825 1000 60  0000 C CNN
+F 3 "" H 2825 1000 60  0000 C CNN
+	1    2825 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:VSS #PWR035
+U 1 1 58561FBE
+P 2575 1000
+F 0 "#PWR035" H 2575 1000 30  0001 C CNN
+F 1 "VSS" H 2675 1000 30  0000 C CNN
+F 2 "" H 2575 1000 60  0000 C CNN
+F 3 "" H 2575 1000 60  0000 C CNN
+	1    2575 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:VSS #PWR036
+U 1 1 5856C363
+P 2675 4000
+F 0 "#PWR036" H 2675 4000 30  0001 C CNN
+F 1 "VSS" H 2675 3930 30  0000 C CNN
+F 2 "~" H 2675 4000 60  0000 C CNN
+F 3 "~" H 2675 4000 60  0000 C CNN
+	1    2675 4000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Kira:VSS #PWR037
+U 1 1 5857055E
+P 1325 4000
+F 0 "#PWR037" H 1325 4000 30  0001 C CNN
+F 1 "VSS" H 1325 3930 30  0000 C CNN
+F 2 "~" H 1325 4000 60  0000 C CNN
+F 3 "~" H 1325 4000 60  0000 C CNN
+	1    1325 4000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Kira:IS31FL3733 U3
+U 1 1 585752B0
+P 2025 8250
+F 0 "U3" H 2025 10095 59  0000 C CNN
+F 1 "IS31FL3733" H 2025 9990 59  0000 C CNN
+F 2 "footprints:IS31FL3733" H 2025 9150 60  0001 C CNN
+F 3 "http://www.issi.com/WW/pdf/IS31FL3733.pdf" H 2025 9150 60  0001 C CNN
+F 4 "ISSI" H 2025 10195 50  0001 C CNN "Alt 1 Manufacturer"
+F 5 "IS31FL3733-TQLS4" H 2025 10195 50  0001 C CNN "Alt 1 PN"
+F 6 "LED Display Drivers 12x16 Dot Matrix LED Driver, QFN-48 (6.0mm x 6.0mm), T&R" H 2025 10195 50  0001 C CNN "Description"
+F 7 "IS31FL3733-QFLS4-TR" H 2025 10195 50  0001 C CNN "Manufacturer PN"
+F 8 "ISSI" H 2025 10195 50  0001 C CNN "Manufacturer"
+	1    2025 8250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Kira:VSS #PWR039
+U 1 1 585752C0
+P 875 6900
+F 0 "#PWR039" H 875 6900 30  0001 C CNN
+F 1 "VSS" H 875 6830 30  0000 C CNN
+F 2 "~" H 875 6900 60  0000 C CNN
+F 3 "~" H 875 6900 60  0000 C CNN
+	1    875  6900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Kira:R_Small R13
+U 1 1 585752C6
+P 2675 9650
+F 0 "R13" H 2725 9650 50  0000 L CNN
+F 1 "20k" V 2675 9650 35  0000 C CNN
+F 2 "footprints:SMD-0402" H 2675 9650 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/219/RK73B-919.pdf" H 2675 9650 50  0001 C CNN
+F 4 "Thick Film Resistors - SMD 0.1W 20Kohms 5%" H 2725 9750 50  0001 C CNN "Description"
+F 5 "RK73B1ETTP203J" H 2725 9750 50  0001 C CNN "Manufacturer PN"
+F 6 "KOA Speer" H 2725 9750 50  0001 C CNN "Manufacturer"
+F 7 "5%" H 2725 9750 50  0001 C CNN "Tolerance"
+F 8 "50 VDC" H 2725 9750 50  0001 C CNN "Voltage Rating"
+	1    2675 9650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:+5V #PWR041
+U 1 1 585752D2
+P 3025 6550
+F 0 "#PWR041" H 3025 6640 20  0001 C CNN
+F 1 "+5V" H 3025 6640 30  0000 C CNN
+F 2 "" H 3025 6550 60  0000 C CNN
+F 3 "" H 3025 6550 60  0000 C CNN
+	1    3025 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:C_Small C14
+U 1 1 585752D8
+P 2575 6750
+F 0 "C14" H 2575 6800 50  0000 L CNN
+F 1 "0.1uF" H 2575 6700 35  0000 L CNN
+F 2 "footprints:SMD-0402" H 2575 6750 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 2575 6750 50  0001 C CNN
+F 4 "https://www.mouser.com/datasheet/2/445/885012105010-610995.pdf" H 2575 6900 50  0001 C CNN "Alt 1 Datasheet"
+F 5 "Wurth" H 2575 6900 50  0001 C CNN "Alt 1 Manufacturer"
+F 6 "885012105010" H 2575 6900 50  0001 C CNN "Alt 1 PN"
+F 7 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0.1uF 10V X7R +/-10% 0402 Gen Purp " H 2575 6900 50  0001 C CNN "Description"
+F 8 "LMK105B7104KV-F" H 2575 6900 50  0001 C CNN "Manufacturer PN"
+F 9 "Taiyo Yuden " H 2575 6900 50  0001 C CNN "Manufacturer"
+F 10 "10 %" H 2575 6900 50  0001 C CNN "Tolerance"
+F 11 "10 VDC " H 2575 6900 50  0001 C CNN "Voltage Rating"
+	1    2575 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:C_Small C13
+U 1 1 585752DE
+P 875 6750
+F 0 "C13" H 875 6800 50  0000 L CNN
+F 1 "0.47uF" H 875 6700 35  0000 L CNN
+F 2 "footprints:SMD-0402" H 875 6750 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 875 6750 50  0001 C CNN
+F 4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0.47uF 6.3V X5R +/-10% 0402 Gen Purp " H 875 6900 50  0001 C CNN "Description"
+F 5 "JMK105BJ474KV-F" H 875 6900 50  0001 C CNN "Manufacturer PN"
+F 6 "Taiyo Yuden " H 875 6900 50  0001 C CNN "Manufacturer"
+F 7 "10 %" H 875 6900 50  0001 C CNN "Tolerance"
+F 8 "6.3 VDC" H 875 6900 50  0001 C CNN "Voltage Rating"
+	1    875  6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:R_Small R8
+U 1 1 585752EA
+P 2575 7900
+F 0 "R8" H 2625 7900 50  0000 L CNN
+F 1 "1k" V 2575 7900 35  0000 C CNN
+F 2 "footprints:SMD-0402" H 2575 7900 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/219/RK73B-919.pdf" H 2575 7900 50  0001 C CNN
+F 4 "Thick Film Resistors - SMD 0.1W 1Kohms 5%" H 2625 8000 50  0001 C CNN "Description"
+F 5 "RK73B1ETTP102J" H 2625 8000 50  0001 C CNN "Manufacturer PN"
+F 6 "KOA Speer" H 2625 8000 50  0001 C CNN "Manufacturer"
+F 7 "5%" H 2625 8000 50  0001 C CNN "Tolerance"
+F 8 "50 VDC" H 2625 8000 50  0001 C CNN "Voltage Rating"
+	1    2575 7900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:R_Small R9
+U 1 1 585752F0
+P 2825 7900
+F 0 "R9" H 2875 7900 50  0000 L CNN
+F 1 "1k" V 2825 7900 35  0000 C CNN
+F 2 "footprints:SMD-0402" H 2825 7900 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/219/RK73B-919.pdf" H 2825 7900 50  0001 C CNN
+F 4 "Thick Film Resistors - SMD 0.1W 1Kohms 5%" H 2875 8000 50  0001 C CNN "Description"
+F 5 "RK73B1ETTP102J" H 2875 8000 50  0001 C CNN "Manufacturer PN"
+F 6 "KOA Speer" H 2875 8000 50  0001 C CNN "Manufacturer"
+F 7 "5%" H 2875 8000 50  0001 C CNN "Tolerance"
+F 8 "50 VDC" H 2875 8000 50  0001 C CNN "Voltage Rating"
+	1    2825 7900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:C_Small C15
+U 1 1 5857530A
+P 2825 6750
+F 0 "C15" H 2825 6800 50  0000 L CNN
+F 1 "0.47uF" H 2825 6700 35  0000 L CNN
+F 2 "footprints:SMD-0402" H 2825 6750 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 2825 6750 50  0001 C CNN
+F 4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0.47uF 10V X5R 20% 0402 " H 2825 6900 50  0001 C CNN "Description"
+F 5 "LMK105BJ474MV-F" H 2825 6900 50  0001 C CNN "Manufacturer PN"
+F 6 "Taiyo Yuden " H 2825 6900 50  0001 C CNN "Manufacturer"
+F 7 "20 %" H 2825 6900 50  0001 C CNN "Tolerance"
+F 8 "10 VDC " H 2825 6900 50  0001 C CNN "Voltage Rating"
+	1    2825 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:C_Small C16
+U 1 1 58575310
+P 2575 7100
+F 0 "C16" H 2575 7150 50  0000 L CNN
+F 1 "0.1uF" H 2575 7050 35  0000 L CNN
+F 2 "footprints:SMD-0402" H 2575 7100 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 2575 7100 50  0001 C CNN
+F 4 "https://www.mouser.com/datasheet/2/445/885012105010-610995.pdf" H 2575 7250 50  0001 C CNN "Alt 1 Datasheet"
+F 5 "Wurth" H 2575 7250 50  0001 C CNN "Alt 1 Manufacturer"
+F 6 "885012105010" H 2575 7250 50  0001 C CNN "Alt 1 PN"
+F 7 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0.1uF 10V X7R +/-10% 0402 Gen Purp " H 2575 7250 50  0001 C CNN "Description"
+F 8 "LMK105B7104KV-F" H 2575 7250 50  0001 C CNN "Manufacturer PN"
+F 9 "Taiyo Yuden " H 2575 7250 50  0001 C CNN "Manufacturer"
+F 10 "10 %" H 2575 7250 50  0001 C CNN "Tolerance"
+F 11 "10 VDC " H 2575 7250 50  0001 C CNN "Voltage Rating"
+	1    2575 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:C_Small C17
+U 1 1 58575316
+P 2825 7100
+F 0 "C17" H 2825 7150 50  0000 L CNN
+F 1 "0.47uF" H 2825 7050 35  0000 L CNN
+F 2 "footprints:SMD-0402" H 2825 7100 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 2825 7100 50  0001 C CNN
+F 4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0.47uF 10V X5R 20% 0402 " H 2825 7250 50  0001 C CNN "Description"
+F 5 "LMK105BJ474MV-F" H 2825 7250 50  0001 C CNN "Manufacturer PN"
+F 6 "Taiyo Yuden " H 2825 7250 50  0001 C CNN "Manufacturer"
+F 7 "20 %" H 2825 7250 50  0001 C CNN "Tolerance"
+F 8 "10 VDC " H 2825 7250 50  0001 C CNN "Voltage Rating"
+	1    2825 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:C_Small C19
+U 1 1 5857531C
+P 2575 7450
+F 0 "C19" H 2575 7500 50  0000 L CNN
+F 1 "0.1uF" H 2575 7400 35  0000 L CNN
+F 2 "footprints:SMD-0402" H 2575 7450 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 2575 7450 50  0001 C CNN
+F 4 "https://www.mouser.com/datasheet/2/445/885012105010-610995.pdf" H 2575 7600 50  0001 C CNN "Alt 1 Datasheet"
+F 5 "Wurth" H 2575 7600 50  0001 C CNN "Alt 1 Manufacturer"
+F 6 "885012105010" H 2575 7600 50  0001 C CNN "Alt 1 PN"
+F 7 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0.1uF 10V X7R +/-10% 0402 Gen Purp " H 2575 7600 50  0001 C CNN "Description"
+F 8 "LMK105B7104KV-F" H 2575 7600 50  0001 C CNN "Manufacturer PN"
+F 9 "Taiyo Yuden " H 2575 7600 50  0001 C CNN "Manufacturer"
+F 10 "10 %" H 2575 7600 50  0001 C CNN "Tolerance"
+F 11 "10 VDC " H 2575 7600 50  0001 C CNN "Voltage Rating"
+	1    2575 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:C_Small C20
+U 1 1 58575322
+P 2825 7450
+F 0 "C20" H 2825 7500 50  0000 L CNN
+F 1 "0.47uF" H 2825 7400 35  0000 L CNN
+F 2 "footprints:SMD-0402" H 2825 7450 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 2825 7450 50  0001 C CNN
+F 4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0.47uF 10V X5R 20% 0402 " H 2825 7600 50  0001 C CNN "Description"
+F 5 "LMK105BJ474MV-F" H 2825 7600 50  0001 C CNN "Manufacturer PN"
+F 6 "Taiyo Yuden " H 2825 7600 50  0001 C CNN "Manufacturer"
+F 7 "20 %" H 2825 7600 50  0001 C CNN "Tolerance"
+F 8 "10 VDC " H 2825 7600 50  0001 C CNN "Voltage Rating"
+	1    2825 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:VSS #PWR042
+U 1 1 58575334
+P 2575 7600
+F 0 "#PWR042" H 2575 7600 30  0001 C CNN
+F 1 "VSS" H 2675 7600 30  0000 C CNN
+F 2 "" H 2575 7600 60  0000 C CNN
+F 3 "" H 2575 7600 60  0000 C CNN
+	1    2575 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:VSS #PWR043
+U 1 1 5857533A
+P 2825 7600
+F 0 "#PWR043" H 2825 7600 30  0001 C CNN
+F 1 "VSS" H 2925 7600 30  0000 C CNN
+F 2 "" H 2825 7600 60  0000 C CNN
+F 3 "" H 2825 7600 60  0000 C CNN
+	1    2825 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:VSS #PWR044
+U 1 1 58575340
+P 2575 7250
+F 0 "#PWR044" H 2575 7250 30  0001 C CNN
+F 1 "VSS" H 2675 7250 30  0000 C CNN
+F 2 "" H 2575 7250 60  0000 C CNN
+F 3 "" H 2575 7250 60  0000 C CNN
+	1    2575 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:VSS #PWR045
+U 1 1 58575346
+P 2825 7250
+F 0 "#PWR045" H 2825 7250 30  0001 C CNN
+F 1 "VSS" H 2925 7250 30  0000 C CNN
+F 2 "" H 2825 7250 60  0000 C CNN
+F 3 "" H 2825 7250 60  0000 C CNN
+	1    2825 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:VSS #PWR046
+U 1 1 5857534C
+P 2825 6900
+F 0 "#PWR046" H 2825 6900 30  0001 C CNN
+F 1 "VSS" H 2925 6900 30  0000 C CNN
+F 2 "" H 2825 6900 60  0000 C CNN
+F 3 "" H 2825 6900 60  0000 C CNN
+	1    2825 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:VSS #PWR047
+U 1 1 58575352
+P 2575 6900
+F 0 "#PWR047" H 2575 6900 30  0001 C CNN
+F 1 "VSS" H 2675 6900 30  0000 C CNN
+F 2 "" H 2575 6900 60  0000 C CNN
+F 3 "" H 2575 6900 60  0000 C CNN
+	1    2575 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:VSS #PWR048
+U 1 1 5857537D
+P 2675 9900
+F 0 "#PWR048" H 2675 9900 30  0001 C CNN
+F 1 "VSS" H 2675 9830 30  0000 C CNN
+F 2 "~" H 2675 9900 60  0000 C CNN
+F 3 "~" H 2675 9900 60  0000 C CNN
+	1    2675 9900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Kira:VSS #PWR049
+U 1 1 5857538B
+P 1325 9900
+F 0 "#PWR049" H 1325 9900 30  0001 C CNN
+F 1 "VSS" H 1325 9830 30  0000 C CNN
+F 2 "~" H 1325 9900 60  0000 C CNN
+F 3 "~" H 1325 9900 60  0000 C CNN
+	1    1325 9900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Kira:VSS #PWR050
+U 1 1 585B127A
+P 875 1000
+F 0 "#PWR050" H 875 1000 30  0001 C CNN
+F 1 "VSS" H 875 930 30  0000 C CNN
+F 2 "~" H 875 1000 60  0000 C CNN
+F 3 "~" H 875 1000 60  0000 C CNN
+	1    875  1000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Kira:C_Small C1
+U 1 1 585B1280
+P 875 850
+F 0 "C1" H 875 900 50  0000 L CNN
+F 1 "0.47uF" H 875 800 35  0000 L CNN
+F 2 "footprints:SMD-0402" H 875 850 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 875 850 50  0001 C CNN
+F 4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0.47uF 6.3V X5R +/-10% 0402 Gen Purp " H 875 1000 50  0001 C CNN "Description"
+F 5 "JMK105BJ474KV-F" H 875 1000 50  0001 C CNN "Manufacturer PN"
+F 6 "Taiyo Yuden " H 875 1000 50  0001 C CNN "Manufacturer"
+F 7 "10 %" H 875 1000 50  0001 C CNN "Tolerance"
+F 8 "6.3 VDC" H 875 1000 50  0001 C CNN "Voltage Rating"
+	1    875  850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:VSS #PWR051
+U 1 1 58558B00
+P 3125 1000
+F 0 "#PWR051" H 3125 1000 30  0001 C CNN
+F 1 "VSS" H 3125 930 30  0000 C CNN
+F 2 "~" H 3125 1000 60  0000 C CNN
+F 3 "~" H 3125 1000 60  0000 C CNN
+	1    3125 1000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Kira:R_Small R4
+U 1 1 56AE00B8
+P 7850 2200
+F 0 "R4" V 7925 2150 50  0000 L CNN
+F 1 "33" V 7850 2200 35  0000 C CNN
+F 2 "footprints:SMD-0402" H 7850 2200 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/219/RK73B-919.pdf" H 7850 2200 50  0001 C CNN
+F 4 "Thick Film Resistors - SMD 0.1W 33ohms 5% " H 7925 2250 50  0001 C CNN "Description"
+F 5 "RK73B1ETTP330J" H 7925 2250 50  0001 C CNN "Manufacturer PN"
+F 6 "KOA Speer" H 7925 2250 50  0001 C CNN "Manufacturer"
+F 7 "5%" H 7925 2250 50  0001 C CNN "Tolerance"
+F 8 "50 VDC" H 7925 2250 50  0001 C CNN "Voltage Rating"
+	1    7850 2200
+	0    1    -1   0   
+$EndComp
+$Comp
+L Kira:R_Small R5
+U 1 1 56ADF8F1
+P 7850 2300
+F 0 "R5" V 7775 2250 50  0000 L CNN
+F 1 "33" V 7850 2300 35  0000 C CNN
+F 2 "footprints:SMD-0402" H 7850 2300 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/219/RK73B-919.pdf" H 7850 2300 50  0001 C CNN
+F 4 "Thick Film Resistors - SMD 0.1W 33ohms 5% " H 7775 2350 50  0001 C CNN "Description"
+F 5 "RK73B1ETTP330J" H 7775 2350 50  0001 C CNN "Manufacturer PN"
+F 6 "KOA Speer" H 7775 2350 50  0001 C CNN "Manufacturer"
+F 7 "5%" H 7775 2350 50  0001 C CNN "Tolerance"
+F 8 "50 VDC" H 7775 2350 50  0001 C CNN "Voltage Rating"
+	1    7850 2300
+	0    1    -1   0   
+$EndComp
+$Comp
+L Kira:CONN_5 P2
+U 1 1 58BEACD9
+P 9950 2300
+F 0 "P2" H 10078 2341 50  0000 L CNN
+F 1 "CONN_5" H 10078 2250 50  0000 L CNN
+F 2 "footprints:PICOSPOX_5" H -750 -500 60  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/276/0874370543_PCB_HEADERS-154282.pdf" H -750 -500 60  0001 C CNN
+F 4 "2.5A" H 10078 2441 50  0001 C CNN "Current Rating"
+F 5 "Headers & Wire Housings 5 CKT 1.5mm HDR. Vert. SMT " H 10078 2441 50  0001 C CNN "Description"
+F 6 "87437-0543" H 10078 2441 50  0001 C CNN "Manufacturer PN"
+F 7 "Molex" H 10078 2441 50  0001 C CNN "Manufacturer"
+F 8 "250V" H 10078 2441 50  0001 C CNN "Voltage Rating"
+	1    9950 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:VSS #PWR052
+U 1 1 58BF1195
+P 8750 2750
+F 0 "#PWR052" H 8750 2750 30  0001 C CNN
+F 1 "VSS" H 8750 2680 30  0000 C CNN
+F 2 "~" H 8750 2750 60  0000 C CNN
+F 3 "~" H 8750 2750 60  0000 C CNN
+	1    8750 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:C_Small C21
+U 1 1 5A140238
+P 12275 3125
+F 0 "C21" H 12275 3175 50  0000 L CNN
+F 1 "4.7uF" H 12275 3075 35  0000 L CNN
+F 2 "footprints:SMD-0402" H 12275 3125 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 12275 3125 50  0001 C CNN
+F 4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 4.7uF 6.3V +/-20% 0402 X5R GenPurp" H 12275 3275 50  0001 C CNN "Description"
+F 5 "JMK105BBJ475MV-F" H 12275 3275 50  0001 C CNN "Manufacturer PN"
+F 6 "Taiyo Yuden " H 12275 3275 50  0001 C CNN "Manufacturer"
+F 7 "20 %" H 12275 3275 50  0001 C CNN "Tolerance"
+F 8 "6.3 VDC" H 12275 3275 50  0001 C CNN "Voltage Rating"
+	1    12275 3125
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:ATSAM4S8CA-CU U1
+U 1 1 5A4C7E6C
+P 7750 7150
+F 0 "U1" H 7750 9920 50  0000 C CNN
+F 1 "ATSAM4S8CA-CU" H 7750 9829 50  0000 C CNN
+F 2 "footprints:BGA_100_QFP_64" H 7750 7150 50  0001 L BNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-11100-32-bit%20Cortex-M4-Microcontroller-SAM4S_Datasheet.pdf" H 7750 7150 50  0001 L BNN
+F 4 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-11100-32-bit%20Cortex-M4-Microcontroller-SAM4S_Datasheet.pdf" H 7750 10020 50  0001 C CNN "Alt 1 Datasheet"
+F 5 "Microchip" H 7750 10020 50  0001 C CNN "Alt 1 Manufacturer"
+F 6 "ATSAM4S8BA-AN " H 7750 10020 50  0001 C CNN "Alt 1 PN"
+F 7 "ATSAM4S8CB-CU" H 7750 10020 50  0001 C CNN "Alt 10 PN"
+F 8 "ATSAM4S8CA-CU" H 7750 10020 50  0001 C CNN "Alt 2 PN"
+F 9 "ATSAM4S8BA-AUR" H 7750 10020 50  0001 C CNN "Alt 3 PN"
+F 10 "ATSAM4S8BB-AN" H 7750 10020 50  0001 C CNN "Alt 4 PN"
+F 11 "ATSAM4S8BB-ANR" H 7750 10020 50  0001 C CNN "Alt 5 PN"
+F 12 "ATSAM4S8BB-AU" H 7750 10020 50  0001 C CNN "Alt 6 PN"
+F 13 "ATSAM4S8CA-CUR" H 7750 10020 50  0001 C CNN "Alt 7 PN"
+F 14 "ATSAM4S8CB-CN" H 7750 10020 50  0001 C CNN "Alt 8 PN"
+F 15 "ATSAM4S8CB-CNR" H 7750 10020 50  0001 C CNN "Alt 9 PN"
+F 16 "ARM Microcontrollers - MCU BGA, Green, IND TEMP,MRL A" H 7750 10020 50  0001 C CNN "Description"
+F 17 "ATSAM4S8BA-AU" H 7750 10020 50  0001 C CNN "Manufacturer PN"
+F 18 "Microchip" H 7750 10020 50  0001 C CNN "Manufacturer"
+	1    7750 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:VSS #PWR02
+U 1 1 5A4CC0A0
+P 9250 9825
+F 0 "#PWR02" H 9250 9825 30  0001 C CNN
+F 1 "VSS" H 9250 9755 30  0000 C CNN
+F 2 "" H 9250 9825 60  0001 C CNN
+F 3 "" H 9250 9825 60  0001 C CNN
+	1    9250 9825
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:VSS #PWR06
+U 1 1 5A4CCAFC
+P 9350 5200
+F 0 "#PWR06" H 9350 5200 30  0001 C CNN
+F 1 "VSS" H 9350 5130 30  0000 C CNN
+F 2 "" H 9350 5200 60  0001 C CNN
+F 3 "" H 9350 5200 60  0001 C CNN
+	1    9350 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:+3.3V #PWR09
+U 1 1 5A4DCF92
+P 9250 4575
+F 0 "#PWR09" H 9250 4665 20  0001 C CNN
+F 1 "+3.3V" H 9246 4703 30  0000 C CNN
+F 2 "" H 9250 4575 60  0000 C CNN
+F 3 "" H 9250 4575 60  0000 C CNN
+	1    9250 4575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:VSS #PWR010
+U 1 1 5A4E1FE7
+P 6250 4900
+F 0 "#PWR010" H 6250 4900 30  0001 C CNN
+F 1 "VSS" H 6250 4830 30  0000 C CNN
+F 2 "" H 6250 4900 60  0001 C CNN
+F 3 "" H 6250 4900 60  0001 C CNN
+	1    6250 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:+3.3V #PWR011
+U 1 1 5A4E396D
+P 6050 1125
+F 0 "#PWR011" H 6050 1215 20  0001 C CNN
+F 1 "+3.3V" H 6046 1253 30  0000 C CNN
+F 2 "" H 6050 1125 60  0000 C CNN
+F 3 "" H 6050 1125 60  0000 C CNN
+	1    6050 1125
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:+1.2V #PWR012
+U 1 1 5A4E405C
+P 5950 1175
+F 0 "#PWR012" H 5950 1265 20  0001 C CNN
+F 1 "+1.2V" H 5950 1275 30  0000 C CNN
+F 2 "" H 5950 1175 60  0000 C CNN
+F 3 "" H 5950 1175 60  0000 C CNN
+	1    5950 1175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:Jumper JP1
+U 1 1 5A4EF9B6
+P 9500 8850
+F 0 "JP1" H 9500 8975 60  0000 C CNN
+F 1 "Jumper" H 9500 8991 60  0001 C CNN
+F 2 "footprints:HEADER_1x2" H 9500 8850 60  0001 C CNN
+F 3 "" H 9500 8850 60  0001 C CNN
+	1    9500 8850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:+3.3V #PWR015
+U 1 1 5A4F048F
+P 9675 8800
+F 0 "#PWR015" H 9675 8890 20  0001 C CNN
+F 1 "+3.3V" H 9671 8928 30  0000 C CNN
+F 2 "" H 9675 8800 60  0000 C CNN
+F 3 "" H 9675 8800 60  0000 C CNN
+	1    9675 8800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:+3.3V #PWR016
+U 1 1 5A4F1388
+P 11750 2975
+F 0 "#PWR016" H 11750 3065 20  0001 C CNN
+F 1 "+3.3V" H 11746 3103 30  0000 C CNN
+F 2 "" H 11750 2975 60  0000 C CNN
+F 3 "" H 11750 2975 60  0000 C CNN
+	1    11750 2975
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:VSS #PWR017
+U 1 1 5A4F66A1
+P 14150 3300
+F 0 "#PWR017" H 14150 3300 30  0001 C CNN
+F 1 "VSS" H 14150 3230 30  0000 C CNN
+F 2 "" H 14150 3300 60  0001 C CNN
+F 3 "" H 14150 3300 60  0001 C CNN
+	1    14150 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:C_Small C25
+U 1 1 5A4F66AD
+P 14150 3125
+F 0 "C25" H 14150 3175 50  0000 L CNN
+F 1 "0.1uF" H 14150 3075 35  0000 L CNN
+F 2 "footprints:SMD-0402" H 14150 3125 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 14150 3125 50  0001 C CNN
+F 4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0.1uF 6.3V X7R +/-10% 0402 Gen Purp " H 14150 3275 50  0001 C CNN "Description"
+F 5 "JMK105B7104KV-F" H 14150 3275 50  0001 C CNN "Manufacturer PN"
+F 6 "Taiyo Yuden " H 14150 3275 50  0001 C CNN "Manufacturer"
+F 7 "10 %" H 14150 3275 50  0001 C CNN "Tolerance"
+F 8 "6.3 VDC" H 14150 3275 50  0001 C CNN "Voltage Rating"
+	1    14150 3125
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:C_Small C24
+U 1 1 5A4F66B3
+P 13875 3125
+F 0 "C24" H 13875 3175 50  0000 L CNN
+F 1 "0.1uF" H 13875 3075 35  0000 L CNN
+F 2 "footprints:SMD-0402" H 13875 3125 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 13875 3125 50  0001 C CNN
+F 4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0.1uF 6.3V X7R +/-10% 0402 Gen Purp " H 13875 3275 50  0001 C CNN "Description"
+F 5 "JMK105B7104KV-F" H 13875 3275 50  0001 C CNN "Manufacturer PN"
+F 6 "Taiyo Yuden " H 13875 3275 50  0001 C CNN "Manufacturer"
+F 7 "10 %" H 13875 3275 50  0001 C CNN "Tolerance"
+F 8 "6.3 VDC" H 13875 3275 50  0001 C CNN "Voltage Rating"
+	1    13875 3125
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:C_Small C26
+U 1 1 5A4F66B9
+P 14425 3125
+F 0 "C26" H 14425 3175 50  0000 L CNN
+F 1 "0.1uF" H 14425 3075 35  0000 L CNN
+F 2 "footprints:SMD-0402" H 14425 3125 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 14425 3125 50  0001 C CNN
+F 4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0.1uF 6.3V X7R +/-10% 0402 Gen Purp " H 14425 3275 50  0001 C CNN "Description"
+F 5 "JMK105B7104KV-F" H 14425 3275 50  0001 C CNN "Manufacturer PN"
+F 6 "Taiyo Yuden " H 14425 3275 50  0001 C CNN "Manufacturer"
+F 7 "10 %" H 14425 3275 50  0001 C CNN "Tolerance"
+F 8 "6.3 VDC" H 14425 3275 50  0001 C CNN "Voltage Rating"
+	1    14425 3125
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:C_Small C22
+U 1 1 5A4F66BF
+P 13375 3125
+F 0 "C22" H 13375 3175 50  0000 L CNN
+F 1 "0.1uF" H 13375 3075 35  0000 L CNN
+F 2 "footprints:SMD-0402" H 13375 3125 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 13375 3125 50  0001 C CNN
+F 4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0.1uF 6.3V X7R +/-10% 0402 Gen Purp " H 13375 3275 50  0001 C CNN "Description"
+F 5 "JMK105B7104KV-F" H 13375 3275 50  0001 C CNN "Manufacturer PN"
+F 6 "Taiyo Yuden " H 13375 3275 50  0001 C CNN "Manufacturer"
+F 7 "10 %" H 13375 3275 50  0001 C CNN "Tolerance"
+F 8 "6.3 VDC" H 13375 3275 50  0001 C CNN "Voltage Rating"
+	1    13375 3125
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:C_Small C23
+U 1 1 5A4F66C5
+P 13600 3125
+F 0 "C23" H 13600 3175 50  0000 L CNN
+F 1 "0.1uF" H 13600 3075 35  0000 L CNN
+F 2 "footprints:SMD-0402" H 13600 3125 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 13600 3125 50  0001 C CNN
+F 4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0.1uF 6.3V X7R +/-10% 0402 Gen Purp " H 13600 3275 50  0001 C CNN "Description"
+F 5 "JMK105B7104KV-F" H 13600 3275 50  0001 C CNN "Manufacturer PN"
+F 6 "Taiyo Yuden " H 13600 3275 50  0001 C CNN "Manufacturer"
+F 7 "10 %" H 13600 3275 50  0001 C CNN "Tolerance"
+F 8 "6.3 VDC" H 13600 3275 50  0001 C CNN "Voltage Rating"
+	1    13600 3125
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:C_Small C27
+U 1 1 5A4F66CB
+P 14700 3125
+F 0 "C27" H 14700 3175 50  0000 L CNN
+F 1 "0.1uF" H 14700 3075 35  0000 L CNN
+F 2 "footprints:SMD-0402" H 14700 3125 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 14700 3125 50  0001 C CNN
+F 4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0.1uF 6.3V X7R +/-10% 0402 Gen Purp " H 14700 3275 50  0001 C CNN "Description"
+F 5 "JMK105B7104KV-F" H 14700 3275 50  0001 C CNN "Manufacturer PN"
+F 6 "Taiyo Yuden " H 14700 3275 50  0001 C CNN "Manufacturer"
+F 7 "10 %" H 14700 3275 50  0001 C CNN "Tolerance"
+F 8 "6.3 VDC" H 14700 3275 50  0001 C CNN "Voltage Rating"
+	1    14700 3125
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:+1.2V #PWR018
+U 1 1 5A4F740D
+P 14150 2975
+F 0 "#PWR018" H 14150 3065 20  0001 C CNN
+F 1 "+1.2V" H 14146 3103 30  0000 C CNN
+F 2 "" H 14150 2975 60  0000 C CNN
+F 3 "" H 14150 2975 60  0000 C CNN
+	1    14150 2975
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:C_Small C28
+U 1 1 5A4F76E3
+P 14925 3125
+F 0 "C28" H 14925 3175 50  0000 L CNN
+F 1 "2.2uF" H 14925 3075 35  0000 L CNN
+F 2 "footprints:SMD-0402" H 14925 3125 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/281/partnumbering_e_01-553455.pdf" H 14925 3125 50  0001 C CNN
+F 4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 2.2uF 6.3V X6S +/-20% 0402 Gen Purp " H 14925 3275 50  0001 C CNN "Description"
+F 5 "JMK105C6225MV-F" H 14925 3275 50  0001 C CNN "Manufacturer PN"
+F 6 "Taiyo Yuden " H 14925 3275 50  0001 C CNN "Manufacturer"
+F 7 "20%" H 14925 3275 50  0001 C CNN "Tolerance"
+F 8 "6.3 VDC" H 14925 3275 50  0001 C CNN "Voltage Rating"
+	1    14925 3125
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:MIC5504 Q2
+U 1 1 5A4F8B85
+P 13850 2075
+F 0 "Q2" H 13850 2487 60  0000 C CNN
+F 1 "MIC5504" H 13850 2381 60  0000 C CNN
+F 2 "footprints:SOT-23-5" H 13875 2075 60  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/268/MIC550X-1082389.pdf" H 13875 2075 60  0001 C CNN
+F 4 "LDO Voltage Regulators Single 300mA LDO" H 13850 2587 50  0001 C CNN "Description"
+F 5 "MIC5504-3.3YM5-TR" H 13850 2587 50  0001 C CNN "Manufacturer PN"
+F 6 "Microchip" H 13850 2587 50  0001 C CNN "Manufacturer"
+	1    13850 2075
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:VSS #PWR019
+U 1 1 5A4F9484
+P 13850 2600
+F 0 "#PWR019" H 13850 2600 30  0001 C CNN
+F 1 "VSS" H 13850 2530 30  0000 C CNN
+F 2 "" H 13850 2600 60  0001 C CNN
+F 3 "" H 13850 2600 60  0001 C CNN
+	1    13850 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:+3.3V #PWR021
+U 1 1 5A4FAC8C
+P 14475 1850
+F 0 "#PWR021" H 14475 1940 20  0001 C CNN
+F 1 "+3.3V" H 14471 1978 30  0000 C CNN
+F 2 "" H 14475 1850 60  0000 C CNN
+F 3 "" H 14475 1850 60  0000 C CNN
+	1    14475 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:C_Small C32
+U 1 1 5A4FB178
+P 14475 2100
+F 0 "C32" H 14475 2150 50  0000 L CNN
+F 1 "1uF" H 14475 2050 35  0000 L CNN
+F 2 "footprints:SMD-0402" H 14475 2100 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 14475 2100 50  0001 C CNN
+F 4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 1uF 6.3V X5R +/-10% 0402 Gen Purp " H 14475 2250 50  0001 C CNN "Description"
+F 5 "JMK105BJ105KV-F " H 14475 2250 50  0001 C CNN "Manufacturer PN"
+F 6 "Taiyo Yuden " H 14475 2250 50  0001 C CNN "Manufacturer"
+F 7 "10%" H 14475 2250 50  0001 C CNN "Tolerance"
+F 8 "6.3 VDC" H 14475 2250 50  0001 C CNN "Voltage Rating"
+	1    14475 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:C_Small C31
+U 1 1 5A4FB246
+P 13175 2100
+F 0 "C31" H 13175 2150 50  0000 L CNN
+F 1 "1uF" H 13175 2050 35  0000 L CNN
+F 2 "footprints:SMD-0402" H 13175 2100 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 13175 2100 50  0001 C CNN
+F 4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT CGB 0402 10V 1uF X6S 20% T: 0.33mm " H 13175 2250 50  0001 C CNN "Description"
+F 5 "CGB2A1X6S1A105M033BC" H 13175 2250 50  0001 C CNN "Manufacturer PN"
+F 6 "TDK " H 13175 2250 50  0001 C CNN "Manufacturer"
+F 7 "20%" H 13175 2250 50  0001 C CNN "Tolerance"
+F 8 "10 VDC " H 13175 2250 50  0001 C CNN "Voltage Rating"
+	1    13175 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:C_Small C34
+U 1 1 5A502084
+P 13400 8125
+F 0 "C34" H 13400 8175 50  0000 L CNN
+F 1 "18pF" H 13400 8075 35  0000 L CNN
+F 2 "footprints:SMD-0402" H 13400 8125 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 13400 8125 50  0001 C CNN
+F 4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 18pF 50V C0G +/-5% 0402 Gen Purp " H 13400 8275 50  0001 C CNN "Description"
+F 5 "UMK105CG180JV-F" H 13400 8275 50  0001 C CNN "Manufacturer PN"
+F 6 "Taiyo Yuden " H 13400 8275 50  0001 C CNN "Manufacturer"
+F 7 "5%" H 13400 8275 50  0001 C CNN "Tolerance"
+F 8 "50 VDC" H 13400 8275 50  0001 C CNN "Voltage Rating"
+	1    13400 8125
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:C_Small C33
+U 1 1 5A50249A
+P 12800 8125
+F 0 "C33" H 12800 8175 50  0000 L CNN
+F 1 "18pF" H 12800 8075 35  0000 L CNN
+F 2 "footprints:SMD-0402" H 12800 8125 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 12800 8125 50  0001 C CNN
+F 4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 18pF 50V C0G +/-5% 0402 Gen Purp " H 12800 8275 50  0001 C CNN "Description"
+F 5 "UMK105CG180JV-F" H 12800 8275 50  0001 C CNN "Manufacturer PN"
+F 6 "Taiyo Yuden " H 12800 8275 50  0001 C CNN "Manufacturer"
+F 7 "5%" H 12800 8275 50  0001 C CNN "Tolerance"
+F 8 "50 VDC" H 12800 8275 50  0001 C CNN "Voltage Rating"
+	1    12800 8125
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:VSS #PWR022
+U 1 1 5A502E26
+P 13400 8275
+F 0 "#PWR022" H 13400 8275 30  0001 C CNN
+F 1 "VSS" H 13400 8205 30  0000 C CNN
+F 2 "" H 13400 8275 60  0001 C CNN
+F 3 "" H 13400 8275 60  0001 C CNN
+	1    13400 8275
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:VSS #PWR023
+U 1 1 5A502F62
+P 12800 8275
+F 0 "#PWR023" H 12800 8275 30  0001 C CNN
+F 1 "VSS" H 12800 8205 30  0000 C CNN
+F 2 "" H 12800 8275 60  0001 C CNN
+F 3 "" H 12800 8275 60  0001 C CNN
+	1    12800 8275
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:VBUS #PWR025
+U 1 1 5A517525
+P 11825 1525
+F 0 "#PWR025" H 11825 1615 20  0001 C CNN
+F 1 "VBUS" H 11821 1653 30  0000 C CNN
+F 2 "" H 11825 1525 60  0000 C CNN
+F 3 "" H 11825 1525 60  0000 C CNN
+	1    11825 1525
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:C_Small C30
+U 1 1 5A519046
+P 12675 2100
+F 0 "C30" H 12675 2150 50  0000 L CNN
+F 1 "4.7uF" H 12675 2050 35  0000 L CNN
+F 2 "footprints:SMD-0402" H 12675 2100 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/400/lcc_commercial_lowprofile_en-520027.pdf" H 12675 2100 50  0001 C CNN
+F 4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 4.7uF 10volts *Derate Voltage/Temp " H 12675 2250 50  0001 C CNN "Description"
+F 5 "ZRB15XR61A475KE01D" H 12675 2250 50  0001 C CNN "Manufacturer PN"
+F 6 "Murata" H 12675 2250 50  0001 C CNN "Manufacturer"
+F 7 "10 %" H 12675 2250 50  0001 C CNN "Tolerance"
+F 8 "10 VDC" H 12675 2250 50  0001 C CNN "Voltage Rating"
+	1    12675 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:C_Small C29
+U 1 1 5A5197DB
+P 11825 2100
+F 0 "C29" H 11825 2150 50  0000 L CNN
+F 1 "1uF" H 11825 2050 35  0000 L CNN
+F 2 "footprints:SMD-0402" H 11825 2100 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 11825 2100 50  0001 C CNN
+F 4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT CGB 0402 10V 1uF X6S 20% T: 0.33mm " H 11825 2250 50  0001 C CNN "Description"
+F 5 "CGB2A1X6S1A105M033BC" H 11825 2250 50  0001 C CNN "Manufacturer PN"
+F 6 "TDK " H 11825 2250 50  0001 C CNN "Manufacturer"
+F 7 "20%" H 11825 2250 50  0001 C CNN "Tolerance"
+F 8 "10 VDC " H 11825 2250 50  0001 C CNN "Voltage Rating"
+	1    11825 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:VBUS #PWR026
+U 1 1 5A51C98E
+P 8750 1750
+F 0 "#PWR026" H 8750 1840 20  0001 C CNN
+F 1 "VBUS" H 8746 1878 30  0000 C CNN
+F 2 "" H 8750 1750 60  0000 C CNN
+F 3 "" H 8750 1750 60  0000 C CNN
+	1    8750 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:VBUS #PWR053
+U 1 1 5A51D667
+P 6225 975
+F 0 "#PWR053" H 6225 1065 20  0001 C CNN
+F 1 "VBUS" H 6250 1075 30  0000 C CNN
+F 2 "" H 6225 975 60  0000 C CNN
+F 3 "" H 6225 975 60  0000 C CNN
+	1    6225 975 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:VBUS #PWR054
+U 1 1 5A51D87C
+P 4250 1550
+F 0 "#PWR054" H 4250 1640 20  0001 C CNN
+F 1 "VBUS" H 4275 1650 30  0000 C CNN
+F 2 "" H 4250 1550 60  0000 C CNN
+F 3 "" H 4250 1550 60  0000 C CNN
+	1    4250 1550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Kira:+3.3V #PWR024
+U 1 1 5A5CD265
+P 3125 1850
+F 0 "#PWR024" H 3125 1940 20  0001 C CNN
+F 1 "+3.3V" H 3121 1978 30  0000 C CNN
+F 2 "" H 3125 1850 60  0000 C CNN
+F 3 "" H 3125 1850 60  0000 C CNN
+	1    3125 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:+3.3V #PWR027
+U 1 1 5A5CD5C6
+P 3125 7750
+F 0 "#PWR027" H 3125 7840 20  0001 C CNN
+F 1 "+3.3V" H 3121 7878 30  0000 C CNN
+F 2 "" H 3125 7750 60  0000 C CNN
+F 3 "" H 3125 7750 60  0000 C CNN
+	1    3125 7750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:+3.3V #PWR038
+U 1 1 5A5CDD3F
+P 1425 650
+F 0 "#PWR038" H 1425 740 20  0001 C CNN
+F 1 "+3.3V" H 1421 778 30  0000 C CNN
+F 2 "" H 1425 650 60  0000 C CNN
+F 3 "" H 1425 650 60  0000 C CNN
+	1    1425 650 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:+3.3V #PWR040
+U 1 1 5A5CE43F
+P 1425 6550
+F 0 "#PWR040" H 1425 6640 20  0001 C CNN
+F 1 "+3.3V" H 1421 6678 30  0000 C CNN
+F 2 "" H 1425 6550 60  0000 C CNN
+F 3 "" H 1425 6550 60  0000 C CNN
+	1    1425 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:+5V #PWR013
+U 1 1 5A5D43CA
+P 13175 1850
+F 0 "#PWR013" H 13175 1940 20  0001 C CNN
+F 1 "+5V" H 13171 1978 30  0000 C CNN
+F 2 "" H 13175 1850 60  0000 C CNN
+F 3 "" H 13175 1850 60  0000 C CNN
+	1    13175 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:+1.2V #PWR020
+U 1 1 5A5D470C
+P 9350 4850
+F 0 "#PWR020" H 9350 4940 20  0001 C CNN
+F 1 "+1.2V" H 9346 4978 30  0000 C CNN
+F 2 "" H 9350 4850 60  0000 C CNN
+F 3 "" H 9350 4850 60  0000 C CNN
+	1    9350 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:PWR_FLAG #FLG01
+U 1 1 5A5D6F55
+P 8975 1800
+F 0 "#FLG01" H 8975 1895 30  0001 C CNN
+F 1 "PWR_FLAG" H 8975 1980 30  0000 C CNN
+F 2 "" H 8975 1800 60  0000 C CNN
+F 3 "" H 8975 1800 60  0000 C CNN
+	1    8975 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:R_Small R14
+U 1 1 5A63D008
+P 5800 9150
+F 0 "R14" V 5725 9075 50  0000 L CNN
+F 1 "100" V 5800 9150 35  0000 C CNN
+F 2 "footprints:SMD-0402" H 5800 9150 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/219/RK73B-919.pdf" H 5800 9150 50  0001 C CNN
+F 4 "Thick Film Resistors - SMD 0.1W 100ohms 5%" H 5725 9175 50  0001 C CNN "Description"
+F 5 "RK73B1ETTP101J" H 5725 9175 50  0001 C CNN "Manufacturer PN"
+F 6 "KOA Speer" H 5725 9175 50  0001 C CNN "Manufacturer"
+F 7 "5%" H 5725 9175 50  0001 C CNN "Tolerance"
+F 8 "50 VDC" H 5725 9175 50  0001 C CNN "Voltage Rating"
+	1    5800 9150
+	0    1    -1   0   
+$EndComp
+$Comp
+L Kira:CRYSTAL X1
+U 1 1 5A69586E
+P 13100 7975
+F 0 "X1" H 13100 8125 60  0000 C CNN
+F 1 "CRYSTAL" H 13100 7675 60  0000 C CNN
+F 2 "footprints:ABM3B" H 13100 7975 60  0001 C CNN
+F 3 "https://abracon.com/Resonators/abm3b.pdf" H 13100 7975 60  0001 C CNN
+F 4 "Crystals +/-20ppm 12MHZ" H 13100 8225 50  0001 C CNN "Description"
+F 5 "ABM3B-12.000MHZ-B2-T " H 13100 8225 50  0001 C CNN "Manufacturer PN"
+F 6 "Abracon" H 13100 8225 50  0001 C CNN "Manufacturer"
+	1    13100 7975
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:ESD_BIDIR_1CH D101
+U 1 1 5B924B18
+P 9050 2550
+F 0 "D101" V 8900 2300 60  0000 L CNN
+F 1 "ESD_BIDIR_1CH" H 9050 2675 60  0001 C CNN
+F 2 "footprints:SMD-0402" H 9200 2550 60  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/281/CRESD-E-1102025.pdf" H 9200 2550 60  0001 C CNN
+F 4 "ESD Suppressors / TVS Diodes 15 VDC " H 8900 2400 50  0001 C CNN "Description"
+F 5 "LXES15AAA1-133" H 8900 2400 50  0001 C CNN "Manufacturer PN"
+F 6 "Murata" H 8900 2400 50  0001 C CNN "Manufacturer"
+	1    9050 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L Kira:ESD_BIDIR_1CH D100
+U 1 1 5B925FA3
+P 8750 2550
+F 0 "D100" V 8750 2225 60  0000 L CNN
+F 1 "ESD_BIDIR_1CH" H 8750 2675 60  0001 C CNN
+F 2 "footprints:SMD-0402" H 8900 2550 60  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/281/CRESD-E-1102025.pdf" H 8900 2550 60  0001 C CNN
+F 4 "ESD Suppressors / TVS Diodes 15 VDC " H 8750 2325 50  0001 C CNN "Description"
+F 5 "LXES15AAA1-133" H 8750 2325 50  0001 C CNN "Manufacturer PN"
+F 6 "Murata" H 8750 2325 50  0001 C CNN "Manufacturer"
+	1    8750 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L Kira:LDL1117 Q1
+U 1 1 5ADFE63E
+P 12225 1825
+F 0 "Q1" H 12200 2222 60  0000 C CNN
+F 1 "LDL1117" H 12200 2116 60  0000 C CNN
+F 2 "footprints:SOT-223" H 12225 1825 60  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/389/ldl1117-1156241.pdf" H 12225 1825 60  0001 C CNN
+F 4 "LDO Voltage Regulators" H 12200 2322 50  0001 C CNN "Description"
+F 5 "LDL1117S50R " H 12200 2322 50  0001 C CNN "Manufacturer PN"
+F 6 "STM" H 12200 2322 50  0001 C CNN "Manufacturer"
+	1    12225 1825
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Kira:+3.3V #PWR0101
+U 1 1 5AD86F2A
+P 4250 900
+F 0 "#PWR0101" H 4250 990 20  0001 C CNN
+F 1 "+3.3V" H 4246 1028 30  0000 C CNN
+F 2 "" H 4250 900 60  0000 C CNN
+F 3 "" H 4250 900 60  0000 C CNN
+	1    4250 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:CONN_17 P3
+U 1 1 5B002A4F
+P 6875 1625
+F 0 "P3" H 7002 1680 59  0000 L CNN
+F 1 "CONN_17" H 7002 1575 59  0000 L CNN
+F 2 "footprints:HEADER_1x17" H 6875 1975 60  0001 C CNN
+F 3 "" H 6875 1975 60  0001 C CNN
+F 4 "Single-row" H 6795 1495 5   0001 L BNN "Field4"
+	1    6875 1625
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:+5V #PWR0102
+U 1 1 5B01C1E8
+P 6125 1000
+F 0 "#PWR0102" H 6125 1090 20  0001 C CNN
+F 1 "+5V" H 6121 1128 30  0000 C CNN
+F 2 "" H 6125 1000 60  0000 C CNN
+F 3 "" H 6125 1000 60  0000 C CNN
+	1    6125 1000
+	1    0    0    -1  
+$EndComp
+Text Label 12825 5175 2    39   ~ 0
+SWD_CLK
+Text Label 12825 5000 2    39   ~ 0
+SWD_DIO
+Text Label 4350 1300 2    39   ~ 0
+SWD_CLK
+Text Label 4350 1100 2    39   ~ 0
+SWD_DIO
+Text Notes 13050 7200 0    40   ~ 0
+RESET internally\npulled high
+Text Label 5250 1300 0    39   ~ 0
+D_TX1
+Text Label 13700 5800 0    39   ~ 0
+PB0
+Text Label 5250 1100 0    39   ~ 0
+D_RX1
+Text Label 12800 6750 2    39   ~ 0
+MCU_RESET
+Text Label 5250 1000 0    39   ~ 0
+MCU_RESET
+Text Label 6575 1425 2    39   ~ 0
+SWD_DIO
+Text Label 6575 1525 2    39   ~ 0
+SWD_CLK
+Text Label 3275 3200 0    39   ~ 0
+SDB
+Text Label 3275 2850 0    39   ~ 0
+INTB
+Text Label 3275 2500 0    39   ~ 0
+SCL0
+Text Label 3275 2150 0    39   ~ 0
+SDA0
+Text Label 3275 9100 0    39   ~ 0
+SDB
+Text Label 3275 8400 0    39   ~ 0
+SCL1
+Text Label 3275 8050 0    39   ~ 0
+SDA1
+Text Label 2875 9250 0    39   ~ 0
+IICRST
+Text HLabel 1575 9550 0    60   BiDi ~ 0
+LD2_SW1
+Text HLabel 1575 9450 0    60   BiDi ~ 0
+LD2_SW2
+Text HLabel 1575 9350 0    60   BiDi ~ 0
+LD2_SW3
+Text HLabel 1575 9250 0    60   BiDi ~ 0
+LD2_SW4
+Text HLabel 1575 9150 0    60   BiDi ~ 0
+LD2_SW5
+Text HLabel 1575 9050 0    60   BiDi ~ 0
+LD2_SW6
+Text HLabel 1575 8950 0    60   BiDi ~ 0
+LD2_SW7
+Text HLabel 1575 8850 0    60   BiDi ~ 0
+LD2_SW8
+Text HLabel 1575 8750 0    60   BiDi ~ 0
+LD2_SW9
+Text HLabel 1575 8650 0    60   BiDi ~ 0
+LD2_SW10
+Text HLabel 1575 8550 0    60   BiDi ~ 0
+LD2_SW11
+Text HLabel 1575 8450 0    60   BiDi ~ 0
+LD2_SW12
+Text HLabel 1575 8350 0    60   BiDi ~ 0
+LD2_CS1
+Text HLabel 1575 8250 0    60   BiDi ~ 0
+LD2_CS2
+Text HLabel 1575 8150 0    60   BiDi ~ 0
+LD2_CS3
+Text HLabel 1575 8050 0    60   BiDi ~ 0
+LD2_CS4
+Text HLabel 1575 7950 0    60   BiDi ~ 0
+LD2_CS5
+Text HLabel 1575 7850 0    60   BiDi ~ 0
+LD2_CS6
+Text HLabel 1575 7750 0    60   BiDi ~ 0
+LD2_CS7
+Text HLabel 1575 7650 0    60   BiDi ~ 0
+LD2_CS8
+Text HLabel 1575 7550 0    60   BiDi ~ 0
+LD2_CS9
+Text HLabel 1575 7450 0    60   BiDi ~ 0
+LD2_CS10
+Text HLabel 1575 7350 0    60   BiDi ~ 0
+LD2_CS11
+Text HLabel 1575 7250 0    60   BiDi ~ 0
+LD2_CS12
+Text HLabel 1575 7150 0    60   BiDi ~ 0
+LD2_CS13
+Text HLabel 1575 7050 0    60   BiDi ~ 0
+LD2_CS14
+Text HLabel 1575 6950 0    60   BiDi ~ 0
+LD2_CS15
+Text HLabel 1575 6850 0    60   BiDi ~ 0
+LD2_CS16
+Text HLabel 1575 3650 0    60   BiDi ~ 0
+LD1_SW1
+Text HLabel 1575 3550 0    60   BiDi ~ 0
+LD1_SW2
+Text HLabel 1575 3450 0    60   BiDi ~ 0
+LD1_SW3
+Text HLabel 1575 3350 0    60   BiDi ~ 0
+LD1_SW4
+Text HLabel 1575 3250 0    60   BiDi ~ 0
+LD1_SW5
+Text HLabel 1575 3150 0    60   BiDi ~ 0
+LD1_SW6
+Text HLabel 1575 3050 0    60   BiDi ~ 0
+LD1_SW7
+Text HLabel 1575 2950 0    60   BiDi ~ 0
+LD1_SW8
+Text HLabel 1575 2850 0    60   BiDi ~ 0
+LD1_SW9
+Text HLabel 1575 2750 0    60   BiDi ~ 0
+LD1_SW10
+Text HLabel 1575 2650 0    60   BiDi ~ 0
+LD1_SW11
+Text HLabel 1575 2550 0    60   BiDi ~ 0
+LD1_SW12
+Text HLabel 1575 2450 0    60   BiDi ~ 0
+LD1_CS1
+Text HLabel 1575 2350 0    60   BiDi ~ 0
+LD1_CS2
+Text HLabel 1575 2250 0    60   BiDi ~ 0
+LD1_CS3
+Text HLabel 1575 2150 0    60   BiDi ~ 0
+LD1_CS4
+Text HLabel 1575 2050 0    60   BiDi ~ 0
+LD1_CS5
+Text HLabel 1575 1950 0    60   BiDi ~ 0
+LD1_CS6
+Text HLabel 1575 1850 0    60   BiDi ~ 0
+LD1_CS7
+Text HLabel 1575 1750 0    60   BiDi ~ 0
+LD1_CS8
+Text HLabel 1575 1650 0    60   BiDi ~ 0
+LD1_CS9
+Text HLabel 1575 1550 0    60   BiDi ~ 0
+LD1_CS10
+Text HLabel 1575 1450 0    60   BiDi ~ 0
+LD1_CS11
+Text HLabel 1575 1350 0    60   BiDi ~ 0
+LD1_CS12
+Text HLabel 1575 1250 0    60   BiDi ~ 0
+LD1_CS13
+Text HLabel 1575 1150 0    60   BiDi ~ 0
+LD1_CS14
+Text HLabel 1575 1050 0    60   BiDi ~ 0
+LD1_CS15
+Text HLabel 1575 950  0    60   BiDi ~ 0
+LD1_CS16
+Text Label 2475 3550 0    60   ~ 0
+SYNC
+Text Label 2475 9450 0    60   ~ 0
+SYNC
+Text Label 7750 2300 2    39   ~ 0
+USB_DP
+Text Label 7750 2200 2    39   ~ 0
+USB_DM
+Text Notes 7700 2650 0    60   ~ 0
+Near U1/2
+Text HLabel 9600 2600 3    60   BiDi ~ 0
+SHLD
+Text Label 12800 7975 2    39   ~ 0
+XOUT
+Text Label 13400 7975 0    39   ~ 0
+XIN
+Text Label 13375 5175 0    39   ~ 0
+PB7
+Text Label 13375 5000 0    39   ~ 0
+PB6
+Text Label 6450 9250 2    39   ~ 0
+PB6
+Text Label 9050 9350 0    39   ~ 0
+PB7
+Text Label 6450 7550 2    39   ~ 0
+D_TX1
+Text Label 6450 7450 2    39   ~ 0
+D_RX1
+Text Label 6450 4650 2    39   ~ 0
+MCU_RESET
+Text Label 6450 6350 2    39   ~ 0
+I_TX0
+Text Label 6575 1725 2    39   ~ 0
+D_RX1
+Text Label 6575 1825 2    39   ~ 0
+D_TX1
+Text Label 6575 2025 2    39   ~ 0
+I_TX0
+Text Label 6575 1925 2    39   ~ 0
+I_RX0
+Text Label 6450 6250 2    39   ~ 0
+I_RX0
+Text Label 6575 1625 2    39   ~ 0
+MCU_RESET
+Text Label 6575 2125 2    39   ~ 0
+SDA0
+Text Label 6575 2225 2    39   ~ 0
+SCL0
+Text Label 6575 2325 2    39   ~ 0
+SDA1
+Text Label 6575 2425 2    39   ~ 0
+SCL1
+Text Label 6450 5650 2    39   ~ 0
+SDA0
+Text Label 6450 5750 2    39   ~ 0
+SCL0
+Text Label 6450 9050 2    39   ~ 0
+SDA1
+Text Label 6150 9400 2    39   ~ 0
+SCL1
+Text Label 5250 1400 0    39   ~ 0
+TDO
+Text Label 5250 1200 0    39   ~ 0
+SDA1
+Text Label 6450 8650 2    39   ~ 0
+PB0
+Text Label 9050 8950 0    39   ~ 0
+USB_DP
+Text Label 9050 9050 0    39   ~ 0
+USB_DM
+Text Label 9050 9250 0    39   ~ 0
+XOUT
+Text Label 9050 9150 0    39   ~ 0
+XIN
+Text Label 6450 6850 2    39   ~ 0
+SDB
+Text Label 6450 6950 2    39   ~ 0
+INTB
+Text HLabel 9050 5350 2    60   BiDi ~ 0
+PC0
+Text HLabel 9050 5450 2    60   BiDi ~ 0
+PC1
+Text HLabel 9050 5550 2    60   BiDi ~ 0
+PC2
+Text HLabel 9050 5650 2    60   BiDi ~ 0
+PC3
+Text HLabel 9050 5750 2    60   BiDi ~ 0
+PC4
+Text HLabel 9050 5850 2    60   BiDi ~ 0
+PC5
+Text HLabel 9050 5950 2    60   BiDi ~ 0
+PC6
+Text HLabel 9050 6050 2    60   BiDi ~ 0
+PC7
+Text HLabel 9050 6150 2    60   BiDi ~ 0
+PC8
+Text HLabel 9050 6250 2    60   BiDi ~ 0
+PC9
+Text HLabel 9050 6350 2    60   BiDi ~ 0
+PC10
+Text HLabel 9050 6450 2    60   BiDi ~ 0
+PC11
+Text HLabel 9050 6550 2    60   BiDi ~ 0
+PC12
+Text HLabel 9050 6650 2    60   BiDi ~ 0
+PC13
+Text HLabel 9050 6750 2    60   BiDi ~ 0
+PC14
+Text HLabel 9050 6850 2    60   BiDi ~ 0
+PC15
+Text HLabel 9050 6950 2    60   BiDi ~ 0
+PC16
+Text HLabel 9050 7050 2    60   BiDi ~ 0
+PC17
+Text HLabel 9050 7150 2    60   BiDi ~ 0
+PC18
+Text HLabel 9050 7250 2    60   BiDi ~ 0
+PC19
+Text HLabel 9050 7350 2    60   BiDi ~ 0
+PC20
+Text HLabel 9050 7450 2    60   BiDi ~ 0
+PC21
+Text HLabel 9050 7550 2    60   BiDi ~ 0
+PC22
+Text HLabel 9050 7650 2    60   BiDi ~ 0
+PC23
+Text HLabel 9050 7750 2    60   BiDi ~ 0
+PC24
+Text HLabel 9050 7850 2    60   BiDi ~ 0
+PC25
+Text HLabel 9050 7950 2    60   BiDi ~ 0
+PC26
+Text HLabel 9050 8050 2    60   BiDi ~ 0
+PC27
+Text HLabel 9050 8150 2    60   BiDi ~ 0
+PC28
+Text HLabel 9050 8250 2    60   BiDi ~ 0
+PC29
+Text HLabel 9050 8350 2    60   BiDi ~ 0
+PC30
+Text HLabel 9050 8450 2    60   BiDi ~ 0
+PC31
+Text HLabel 6450 5350 0    60   BiDi ~ 0
+PA0
+Text HLabel 6450 5450 0    60   BiDi ~ 0
+PA1
+Text HLabel 6450 5550 0    60   BiDi ~ 0
+PA2
+Text HLabel 6450 5850 0    60   BiDi ~ 0
+PA5
+Text HLabel 6450 5950 0    60   BiDi ~ 0
+PA6
+Text HLabel 6450 6050 0    60   BiDi ~ 0
+PA7
+Text HLabel 6450 6150 0    60   BiDi ~ 0
+PA8
+Text HLabel 6450 6450 0    60   BiDi ~ 0
+PA11
+Text HLabel 6450 6650 0    60   BiDi ~ 0
+PA13
+Text HLabel 6450 6750 0    60   BiDi ~ 0
+PA14
+Text HLabel 6450 7150 0    60   BiDi ~ 0
+PA18
+Text HLabel 6450 7250 0    60   BiDi ~ 0
+PA19
+Text HLabel 6450 7350 0    60   BiDi ~ 0
+PA20
+Text HLabel 6450 7650 0    60   BiDi ~ 0
+PA23
+Text HLabel 6450 7750 0    60   BiDi ~ 0
+PA24
+Text HLabel 6450 7850 0    60   BiDi ~ 0
+PA25
+Text HLabel 6450 7950 0    60   BiDi ~ 0
+PA26
+Text HLabel 6450 8050 0    60   BiDi ~ 0
+PA27
+Text HLabel 6450 8150 0    60   BiDi ~ 0
+PA28
+Text HLabel 6450 8250 0    60   BiDi ~ 0
+PA29
+Text HLabel 6450 8350 0    60   BiDi ~ 0
+PA30
+Text HLabel 6450 8450 0    60   BiDi ~ 0
+PA31
+Text HLabel 6450 8750 0    60   BiDi ~ 0
+PB1
+Text HLabel 6450 8850 0    60   BiDi ~ 0
+PB2
+Text HLabel 6450 8950 0    60   BiDi ~ 0
+PB3
+Text HLabel 9050 8650 2    60   BiDi ~ 0
+PB14
+Text HLabel 9050 8750 2    60   BiDi ~ 0
+PB13
+Text Label 6450 7050 2    39   ~ 0
+IICRST
+Text Label 2875 3350 0    39   ~ 0
+IICRST
+Text Label 5525 9150 2    39   ~ 0
+TDO
+Text HLabel 6450 6550 0    60   BiDi ~ 0
+PA12
+Text Label 6575 925  2    39   ~ 0
+SHLD
+Wire Notes Line
+	12400 7325 12400 6525
+Wire Notes Line
+	13900 7325 12400 7325
+Wire Notes Line
+	13900 6525 13900 7325
+Wire Notes Line
+	12400 6525 13900 6525
+Wire Notes Line
+	12575 7775 12575 8375
+Wire Notes Line
+	12575 7775 13600 7775
+Wire Notes Line
+	12100 6025 12100 5525
+Wire Notes Line
+	14075 6025 12100 6025
+Wire Notes Line
+	14075 5525 14075 6025
+Wire Notes Line
+	12100 5525 14075 5525
+Wire Notes Line
+	12500 5300 12500 4900
+Wire Notes Line
+	13575 5300 12500 5300
+Wire Notes Line
+	13575 4900 13575 5300
+Wire Notes Line
+	12500 4900 13575 4900
+Wire Wire Line
+	9150 2400 9150 2700
+Wire Wire Line
+	9150 1800 8975 1800
+Wire Wire Line
+	9150 2100 9150 1800
+Wire Wire Line
+	9600 2500 9600 2600
+Wire Wire Line
+	8900 2750 8900 2700
+Wire Wire Line
+	8750 2700 8750 2750
+Wire Wire Line
+	8750 1800 8750 1750
+Wire Wire Line
+	9150 2100 9600 2100
+Wire Wire Line
+	9150 2400 9600 2400
+Wire Wire Line
+	9050 2300 9600 2300
+Wire Notes Line
+	7950 2000 7750 2000
+Wire Notes Line
+	7950 2550 7950 2000
+Wire Notes Line
+	7750 2550 7950 2550
+Wire Notes Line
+	7750 2000 7750 2550
+Wire Wire Line
+	3125 950  3125 1000
+Wire Wire Line
+	875  1000 875  950 
+Wire Wire Line
+	875  750  1425 750 
+Wire Wire Line
+	875  6900 875  6850
+Wire Wire Line
+	875  6650 1425 6650
+Wire Wire Line
+	3025 6650 2825 6650
+Wire Wire Line
+	1325 9850 1325 9900
+Wire Wire Line
+	1575 9850 1325 9850
+Wire Wire Line
+	1575 9650 1575 9750
+Wire Wire Line
+	3275 9100 2475 9100
+Wire Wire Line
+	2475 8400 2825 8400
+Wire Wire Line
+	3275 8050 2575 8050
+Wire Wire Line
+	2675 9850 2475 9850
+Wire Wire Line
+	2675 9750 2675 9850
+Wire Wire Line
+	2475 9750 2675 9750
+Wire Wire Line
+	2475 9550 2675 9550
+Wire Wire Line
+	2475 9750 2475 9650
+Wire Wire Line
+	2475 9250 2875 9250
+Wire Wire Line
+	2575 7800 2825 7800
+Wire Wire Line
+	2825 8000 2825 8400
+Wire Wire Line
+	2575 8050 2575 8000
+Wire Wire Line
+	2575 7600 2575 7550
+Wire Wire Line
+	2825 7550 2825 7600
+Wire Wire Line
+	2825 7250 2825 7200
+Wire Wire Line
+	2575 7200 2575 7250
+Wire Wire Line
+	2575 6900 2575 6850
+Wire Wire Line
+	2825 6850 2825 6900
+Wire Wire Line
+	3025 7350 3025 7000
+Wire Wire Line
+	3025 7000 2825 7000
+Wire Wire Line
+	2475 7350 2575 7350
+Wire Wire Line
+	2475 7700 2475 7350
+Wire Wire Line
+	1425 6650 1425 6550
+Wire Wire Line
+	3125 7800 3125 7750
+Wire Wire Line
+	1325 3950 1325 4000
+Wire Wire Line
+	1575 3950 1325 3950
+Wire Wire Line
+	1575 3750 1575 3850
+Wire Wire Line
+	3275 3200 3125 3200
+Wire Wire Line
+	3275 2850 3125 2850
+Wire Wire Line
+	2475 2500 2825 2500
+Wire Wire Line
+	3275 2150 2575 2150
+Wire Wire Line
+	2675 3950 2475 3950
+Wire Wire Line
+	2675 3850 2675 3950
+Wire Wire Line
+	2475 3850 2675 3850
+Wire Wire Line
+	2475 3650 2675 3650
+Wire Wire Line
+	2475 3850 2475 3750
+Wire Wire Line
+	2475 3350 2875 3350
+Wire Wire Line
+	3125 3250 3125 3200
+Wire Wire Line
+	3125 3500 3125 3450
+Wire Wire Line
+	2575 1900 2825 1900
+Wire Wire Line
+	2825 2100 2825 2500
+Wire Wire Line
+	2575 2150 2575 2100
+Wire Wire Line
+	3125 2100 3125 2850
+Wire Wire Line
+	2575 1700 2575 1650
+Wire Wire Line
+	2825 1650 2825 1700
+Wire Wire Line
+	2825 1350 2825 1300
+Wire Wire Line
+	2575 1300 2575 1350
+Wire Wire Line
+	2575 1000 2575 950 
+Wire Wire Line
+	2825 950  2825 1000
+Wire Wire Line
+	3025 1450 3025 1100
+Wire Wire Line
+	2475 750  2575 750 
+Wire Wire Line
+	3025 1100 2825 1100
+Wire Wire Line
+	2475 1450 2575 1450
+Wire Wire Line
+	2475 1800 2475 1450
+Wire Wire Line
+	1425 750  1425 650 
+Wire Wire Line
+	3125 1900 3125 1850
+Wire Wire Line
+	6225 1025 6225 975 
+Wire Wire Line
+	5975 825  5975 875 
+Wire Wire Line
+	5975 825  6575 825 
+Wire Wire Line
+	12850 6850 12850 6900
+Wire Wire Line
+	12500 5800 12550 5800
+Wire Wire Line
+	12750 5800 12800 5800
+Wire Wire Line
+	13700 5800 13200 5800
+Wire Wire Line
+	13375 5000 13025 5000
+Wire Wire Line
+	13375 5175 13025 5175
+Wire Wire Line
+	4250 1000 4250 900 
+Wire Wire Line
+	12800 6850 12850 6850
+Wire Wire Line
+	13700 6950 13700 6850
+Wire Wire Line
+	12850 7100 12850 7150
+Wire Wire Line
+	13800 6950 13700 6950
+Wire Wire Line
+	13800 7200 13800 6950
+Wire Wire Line
+	4350 1200 4050 1200
+Wire Wire Line
+	4050 1200 4050 1550
+Wire Wire Line
+	4250 1400 4250 1550
+Wire Wire Line
+	4350 1400 4250 1400
+Wire Wire Line
+	6225 1025 6575 1025
+Wire Wire Line
+	4350 1000 4250 1000
+Wire Wire Line
+	12800 6750 12800 6850
+Wire Wire Line
+	9250 4575 9250 4650
+Wire Wire Line
+	9250 4650 9050 4650
+Wire Wire Line
+	9250 4750 9050 4750
+Wire Wire Line
+	9050 9550 9250 9550
+Wire Wire Line
+	9250 9550 9250 9650
+Wire Wire Line
+	9050 9650 9250 9650
+Wire Wire Line
+	9050 5150 9350 5150
+Wire Wire Line
+	9350 5150 9350 5200
+Wire Wire Line
+	6450 4850 6250 4850
+Wire Wire Line
+	6250 4750 6250 4850
+Wire Wire Line
+	6450 4750 6250 4750
+Wire Wire Line
+	5950 1175 5950 1325
+Wire Wire Line
+	9050 4850 9350 4850
+Wire Wire Line
+	9350 4850 9350 4950
+Wire Wire Line
+	9350 5050 9050 5050
+Wire Wire Line
+	9050 4950 9350 4950
+Wire Wire Line
+	9050 8850 9400 8850
+Wire Wire Line
+	9600 8850 9675 8850
+Wire Wire Line
+	9675 8850 9675 8800
+Wire Wire Line
+	11750 3225 11750 3300
+Wire Wire Line
+	11750 3025 11750 2975
+Wire Wire Line
+	13375 3025 13600 3025
+Wire Wire Line
+	13375 3225 13600 3225
+Wire Wire Line
+	14150 3225 14150 3300
+Wire Wire Line
+	14150 3025 14150 2975
+Wire Wire Line
+	13425 1925 13425 2175
+Wire Wire Line
+	13850 2525 13850 2600
+Wire Wire Line
+	12675 1925 13175 1925
+Wire Wire Line
+	13175 1850 13175 1925
+Wire Wire Line
+	14275 1925 14475 1925
+Wire Wire Line
+	14475 1850 14475 1925
+Wire Wire Line
+	11825 2525 12675 2525
+Wire Wire Line
+	13400 8225 13400 8275
+Wire Wire Line
+	12800 8225 12800 8275
+Wire Notes Line
+	13600 7775 13600 8375
+Wire Notes Line
+	13600 8375 12575 8375
+Wire Wire Line
+	12675 1925 12675 2000
+Wire Wire Line
+	12675 1675 12950 1675
+Wire Notes Line
+	11075 1200 11075 3450
+Wire Notes Line
+	11075 3450 15325 3450
+Wire Notes Line
+	15325 3450 15325 1200
+Wire Notes Line
+	15325 1200 11075 1200
+Wire Wire Line
+	14475 2525 14475 2200
+Wire Wire Line
+	11825 2200 11825 2525
+Wire Wire Line
+	12675 2525 12675 2200
+Wire Wire Line
+	13175 2200 13175 2525
+Wire Wire Line
+	12950 1675 12950 2525
+Wire Wire Line
+	11250 3025 11475 3025
+Wire Wire Line
+	12275 3225 12025 3225
+Wire Wire Line
+	5700 9150 5525 9150
+Wire Wire Line
+	8900 2700 8750 2700
+Wire Wire Line
+	1575 9750 1575 9850
+Wire Wire Line
+	2675 9850 2675 9900
+Wire Wire Line
+	3025 6650 3025 6550
+Wire Wire Line
+	2825 8400 3275 8400
+Wire Wire Line
+	3025 7000 3025 6650
+Wire Wire Line
+	2825 7350 3025 7350
+Wire Wire Line
+	2825 6650 2575 6650
+Wire Wire Line
+	2825 7000 2575 7000
+Wire Wire Line
+	2575 6650 2475 6650
+Wire Wire Line
+	2575 7000 2475 7000
+Wire Wire Line
+	2575 7350 2825 7350
+Wire Wire Line
+	1425 6650 1575 6650
+Wire Wire Line
+	2825 7800 3125 7800
+Wire Wire Line
+	2575 8050 2475 8050
+Wire Wire Line
+	1575 3850 1575 3950
+Wire Wire Line
+	2675 3950 2675 4000
+Wire Wire Line
+	3125 3200 2475 3200
+Wire Wire Line
+	3025 750  3025 650 
+Wire Wire Line
+	3025 750  3125 750 
+Wire Wire Line
+	2825 2500 3275 2500
+Wire Wire Line
+	3125 2850 2475 2850
+Wire Wire Line
+	3025 1100 3025 750 
+Wire Wire Line
+	2825 1450 3025 1450
+Wire Wire Line
+	2825 750  3025 750 
+Wire Wire Line
+	2825 1100 2575 1100
+Wire Wire Line
+	2575 750  2825 750 
+Wire Wire Line
+	2575 1100 2475 1100
+Wire Wire Line
+	2575 1450 2825 1450
+Wire Wire Line
+	1425 750  1575 750 
+Wire Wire Line
+	2825 1900 3125 1900
+Wire Wire Line
+	2575 2150 2475 2150
+Wire Wire Line
+	12850 6850 13300 6850
+Wire Wire Line
+	9250 4650 9250 4750
+Wire Wire Line
+	9250 9650 9250 9825
+Wire Wire Line
+	6250 4850 6250 4900
+Wire Wire Line
+	9350 4950 9350 5050
+Wire Wire Line
+	11475 3025 11750 3025
+Wire Wire Line
+	11750 3025 12025 3025
+Wire Wire Line
+	12025 3025 12275 3025
+Wire Wire Line
+	12025 3225 11750 3225
+Wire Wire Line
+	11750 3225 11475 3225
+Wire Wire Line
+	11475 3225 11250 3225
+Wire Wire Line
+	13600 3025 13875 3025
+Wire Wire Line
+	13875 3025 14150 3025
+Wire Wire Line
+	14150 3025 14425 3025
+Wire Wire Line
+	14425 3025 14700 3025
+Wire Wire Line
+	14425 3225 14700 3225
+Wire Wire Line
+	14150 3225 14425 3225
+Wire Wire Line
+	13875 3225 14150 3225
+Wire Wire Line
+	13600 3225 13875 3225
+Wire Wire Line
+	14700 3025 14925 3025
+Wire Wire Line
+	14700 3225 14925 3225
+Wire Wire Line
+	14475 1925 14475 2000
+Wire Wire Line
+	13175 1925 13425 1925
+Wire Wire Line
+	13175 1925 13175 2000
+Wire Wire Line
+	13850 2525 14475 2525
+Wire Wire Line
+	12675 2525 12950 2525
+Wire Wire Line
+	13175 2525 13850 2525
+Wire Wire Line
+	12950 2525 13175 2525
+Wire Wire Line
+	8975 1800 8750 1800
+Wire Wire Line
+	13150 8125 13150 8225
+Wire Wire Line
+	13150 8225 13400 8225
+Wire Wire Line
+	13400 7975 13400 8025
+Wire Wire Line
+	12800 7975 12800 8025
+Wire Wire Line
+	13050 8125 13050 8225
+Wire Wire Line
+	13050 8225 12800 8225
+Wire Wire Line
+	8900 2700 9050 2700
+Wire Wire Line
+	9050 2700 9150 2700
+Wire Wire Line
+	9050 2300 9050 2400
+Wire Notes Line
+	7475 2975 7475 1525
+Wire Notes Line
+	10425 2975 7475 2975
+Wire Notes Line
+	10425 1525 10425 2975
+Wire Notes Line
+	7475 1525 10425 1525
+Wire Wire Line
+	7950 2300 9050 2300
+Wire Wire Line
+	7950 2200 8750 2200
+Wire Wire Line
+	8750 2200 8750 2400
+Wire Wire Line
+	8750 2200 9600 2200
+Wire Wire Line
+	5900 9150 6150 9150
+Wire Wire Line
+	6150 9150 6150 9400
+Wire Wire Line
+	6150 9150 6450 9150
+Wire Wire Line
+	11825 1525 11825 1675
+Wire Wire Line
+	11825 1675 11825 2000
+Wire Wire Line
+	6125 1000 6125 1125
+Wire Wire Line
+	6125 1125 6575 1125
+Wire Wire Line
+	6575 1225 6050 1225
+Wire Wire Line
+	6050 1125 6050 1225
+Wire Wire Line
+	5950 1325 6575 1325
+Connection ~ 8900 2700
+Connection ~ 1575 9750
+Connection ~ 2675 9850
+Connection ~ 3025 6650
+Connection ~ 2825 8400
+Connection ~ 3025 7000
+Connection ~ 2825 7350
+Connection ~ 2825 6650
+Connection ~ 2825 7000
+Connection ~ 2575 6650
+Connection ~ 2575 7000
+Connection ~ 2575 7350
+Connection ~ 1425 6650
+Connection ~ 2825 7800
+Connection ~ 2575 8050
+Connection ~ 1575 3850
+Connection ~ 2675 3950
+Connection ~ 3125 3200
+Connection ~ 3025 750 
+Connection ~ 2825 2500
+Connection ~ 3125 2850
+Connection ~ 3025 1100
+Connection ~ 2825 1450
+Connection ~ 2825 750 
+Connection ~ 2825 1100
+Connection ~ 2575 750 
+Connection ~ 2575 1100
+Connection ~ 2575 1450
+Connection ~ 1425 750 
+Connection ~ 2825 1900
+Connection ~ 3125 1900
+Connection ~ 2575 2150
+Connection ~ 12850 6850
+Connection ~ 9250 4650
+Connection ~ 9250 9650
+Connection ~ 6250 4850
+Connection ~ 9350 4950
+Connection ~ 11475 3025
+Connection ~ 11750 3025
+Connection ~ 12025 3025
+Connection ~ 12025 3225
+Connection ~ 11750 3225
+Connection ~ 11475 3225
+Connection ~ 13600 3025
+Connection ~ 13875 3025
+Connection ~ 14150 3025
+Connection ~ 14425 3025
+Connection ~ 14425 3225
+Connection ~ 14150 3225
+Connection ~ 13875 3225
+Connection ~ 13600 3225
+Connection ~ 14700 3025
+Connection ~ 14700 3225
+Connection ~ 14475 1925
+Connection ~ 13175 1925
+Connection ~ 13850 2525
+Connection ~ 12675 2525
+Connection ~ 13175 2525
+Connection ~ 12950 2525
+Connection ~ 8975 1800
+Connection ~ 13400 8225
+Connection ~ 12800 8225
+Connection ~ 8750 2700
+Connection ~ 9050 2700
+Connection ~ 9050 2300
+Connection ~ 8750 2200
+Connection ~ 6150 9150
+Connection ~ 12675 1925
+Connection ~ 11825 1675
+NoConn ~ 13300 6950
+NoConn ~ 2475 8750
+NoConn ~ 14275 2175
+$EndSCHEMATC

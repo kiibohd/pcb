@@ -1,0 +1,14 @@
+Please submit manufacturing details containing
+Type of manufacturing (hand assembly, automated assembly, pcb type, etc.)
+- Quantity Produced
+- Dates of Production
+ to
+* haata@kiibohd.com
+* business@inputclub.com
+
+
+In addition, please submit modifications to designs before manufacturing to
+* haata@kiibohd.com
+* business@inputclub.com
+This way we can proactively share any and all improvements to our designs with others!
+
