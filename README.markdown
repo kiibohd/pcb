@@ -12,6 +12,7 @@ A project will be explicit if another program is required to view.
 Projects
 --------
 
+* Kira, 2019-01-17
 * K-Type, 2017-11-02
 * WhiteFox, 2016-06-11
 * IC60 (Infinity 60% Keyboard, 2016-20-07)
