@@ -1,4 +1,4 @@
-update=7/15/2015 6:41:19 PM
+update=Mon 27 Jul 2020 10:20:46 PM CEST
 version=1
 last_client=kicad
 [general]
@@ -33,6 +33,4 @@ LibName1=logo
 LibName2=massdropdox
 [eeschema]
 version=1
-LibDir=lib
-[eeschema/libraries]
-LibName1=lib/ICEDLeft
+LibDir=
